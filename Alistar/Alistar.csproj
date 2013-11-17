@@ -51,6 +51,8 @@
     <Compile Include="Models\Gender.cs" />
     <Compile Include="Models\Item.cs" />
     <Compile Include="Models\Quotation.cs" />
+    <Compile Include="Models\Rune.cs" />
+    <Compile Include="Models\RuneType.cs" />
     <Compile Include="Models\Scalar.cs" />
     <Compile Include="Models\ScalarType.cs" />
     <Compile Include="Models\Skin.cs" />

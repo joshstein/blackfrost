@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Alistar.Models
 {
-    public enum AbilityHotkey
+    public enum RuneType
     {
-        Q,
-        W,
-        E,
-        R,
-        PASSIVE
+        MARK,
+        SEAL,
+        GLYPH,
+        QUINTESSENCE
     }
 }

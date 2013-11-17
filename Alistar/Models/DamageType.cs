@@ -11,6 +11,7 @@ namespace Alistar.Models
         PHYSICAL,
         MAGICAL,
         MIXED,
+        TRUE,
         UNDEFINED
     }
 }

@@ -17,15 +17,18 @@ namespace Alistar.Utilities
         public string DataDirectory { get; private set; }
         private List<Champion> _Champions;
         private List<Item> _Items;
+        private List<Rune> _Runes;
 
         public AlistarDataStore(string dataDirectory)
         {
             DataDirectory = dataDirectory;
             _Champions = new List<Champion>();
             _Items = new List<Item>();
+            _Runes = new List<Rune>();
 
             GetChampionList();
             GetItemList();
+            GetRuneList();
         }
 
         // populate _Champions with data from Champions.xml
@@ -151,6 +154,7 @@ namespace Alistar.Utilities
             );
         }
 
+        // populate _Items with data from Items.xml
         private void GetItemList()
         {
             _Items = new List<Item>();
@@ -235,9 +239,41 @@ namespace Alistar.Utilities
 
         }
 
-        public Champion[] Champions 
-        { 
-            get { return _Champions.ToArray();  } 
+        // populate _Runes with data from Runes.xml
+        private void GetRuneList()
+        {
+            _Runes = new List<Rune>();
+
+            string runesDocPath = Path.Combine(DataDirectory, "Runes.xml");
+            XDocument runesDoc = XDocument.Load(runesDocPath);
+
+            foreach(XElement rune in runesDoc.Root.Elements("Rune"))
+            {
+                List<Stat> stats = new List<Stat>();
+
+                Rune newRune = new Rune()
+                {
+                    Magnitude = XMLPal.GetString(rune.Attribute("magnitude")),
+                    RuneType = GetRuneType(XMLPal.GetString(rune.Attribute("type"))),
+                    Descriptor = XMLPal.GetString(rune.Attribute("descriptor"))
+                };
+
+                foreach (XElement statElement in rune.Element("Stats").DescendantNodes())
+                {
+                    Stat stat = new Stat()
+                    {
+                        StatType = GetStatType(XMLPal.GetString(statElement.Attribute("statType"))),
+                        Value = XMLPal.GetString(statElement.Attribute("value"))
+                    };
+
+                    stats.Add(stat);
+                }
+
+                newRune.Stats = stats.ToArray();
+                newRune.Name = newRune.Magnitude + " " + StringBeast.Capitalize(newRune.RuneType.ToString(), true) + " of " + newRune.Descriptor;
+
+                _Runes.Add(newRune);
+            }
         }
 
         private Ability GetAbility(IEnumerable<XElement> abilityElements, AbilityHotkey hotkey)
@@ -269,9 +305,19 @@ namespace Alistar.Utilities
             ).FirstOrDefault();
         }
 
+        public Champion[] Champions 
+        { 
+            get { return _Champions.ToArray();  } 
+        } 
+
         public Item[] Items
         {
             get { return _Items.ToArray(); }
+        }
+
+        public Rune[] Runes
+        {
+            get { return _Runes.ToArray(); }
         }
 
         private Gender GetGender(string data)
@@ -284,9 +330,9 @@ namespace Alistar.Utilities
                     return Gender.FEMALE;
                 case "a":
                     return Gender.COURTEOUSLY_ABSTAINING;
-                default:
-                    return Gender.UNDEFINED;
             }
+
+            throw new InvalidOperationException("Couldn't find a gender that matches " + data + ".");
         }
 
         private DamageType GetDamageType(string data)
@@ -299,6 +345,8 @@ namespace Alistar.Utilities
                     return DamageType.MAGICAL;
                 case "MagicalAndPhysical":
                     return DamageType.MIXED;
+                case "True":
+                    return DamageType.TRUE;
                 default:
                     return DamageType.UNDEFINED;
             }
@@ -306,114 +354,112 @@ namespace Alistar.Utilities
 
         private ScalarType GetScalarType(string data)
         {
-            try
+            switch (data)
             {
-                switch (data)
-                {
-                    case "Armor":
-                        return ScalarType.ARMOR;
-                    case "ManaMax":
-                        return ScalarType.MANA_MAX;
-                    case "ManaMissing":
-                        return ScalarType.MANA_MISSING;
-                    case "AttackDamage":
-                        return ScalarType.ATTACK_DAMAGE;
-                    case "AbilityPower":
-                        return ScalarType.ABILITY_POWER;
-                    case "HealthBonus":
-                        return ScalarType.HEALTH_BONUS;
-                    case "HealthMax":
-                        return ScalarType.HEALTH_MAX;
-                    case "HealthMissing":
-                        return ScalarType.HEALTH_MISSING;
-                    case "TargetHealthCurrent":
-                        return ScalarType.TARGET_HEALTH_CURRENT;
-                    case "TargetHealthMax":
-                        return ScalarType.TARGET_HEALTH_MAX;
-                    case "TargetHealthMissing":
-                        return ScalarType.TARGET_HEALTH_MISSING;
-                    case "TargetAbilityPower":
-                        return ScalarType.TARGET_ABILITY_POWER;
-                    case "NasusDamage":
-                        return ScalarType.NASUS_DAMAGE;
-                    default:
-                        return ScalarType.UNDEFINED;
-                }
+                case "Armor":
+                    return ScalarType.ARMOR;
+                case "ManaMax":
+                    return ScalarType.MANA_MAX;
+                case "ManaMissing":
+                    return ScalarType.MANA_MISSING;
+                case "AttackDamage":
+                    return ScalarType.ATTACK_DAMAGE;
+                case "AbilityPower":
+                    return ScalarType.ABILITY_POWER;
+                case "HealthBonus":
+                    return ScalarType.HEALTH_BONUS;
+                case "HealthMax":
+                    return ScalarType.HEALTH_MAX;
+                case "HealthMissing":
+                    return ScalarType.HEALTH_MISSING;
+                case "TargetHealthCurrent":
+                    return ScalarType.TARGET_HEALTH_CURRENT;
+                case "TargetHealthMax":
+                    return ScalarType.TARGET_HEALTH_MAX;
+                case "TargetHealthMissing":
+                    return ScalarType.TARGET_HEALTH_MISSING;
+                case "TargetAbilityPower":
+                    return ScalarType.TARGET_ABILITY_POWER;
+                case "NasusDamage":
+                    return ScalarType.NASUS_DAMAGE;
             }
 
-            catch(Exception ex)
-            {
-                Debug.WriteLine(ex.Message);
-                return ScalarType.UNDEFINED;
-            }
+            throw new InvalidOperationException("Couldn't find a scalar type that matches " + data + ".");
         }
 
         private StatType GetStatType(string data)
         {
-            try
+            switch (data)
             {
-                switch (data)
-                {
-                    case "AbilityPower":
-                        return StatType.ABILITY_POWER;
-                    case "Armor":
-                        return StatType.ARMOR;
-                    case "ArmorPenetration":
-                        return StatType.ARMOR_PENETRATION;
-                    case "AttackSpeed":
-                        return StatType.ATTACK_SPEED;
-                    case "CaptureRate":
-                        return StatType.CAPTURE_RATE;
-                    case "CooldownReduction":
-                        return StatType.COOLDOWN_REDUCTION;
-                    case "CriticalChance":
-                        return StatType.CRITICAL_CHANCE;
-                    case "CriticalDamage":
-                        return StatType.CRITICAL_DAMAGE;
-                    case "Damage":
-                        return StatType.DAMAGE;
-                    case "Dodge":
-                        return StatType.DODGE;
-                    case "Energy":
-                        return StatType.ENERGY;
-                    case "EnergyRegen":
-                        return StatType.ENERGY_REGEN;
-                    case "ExperienceGained":
-                        return StatType.EXPERIENCE_GAINED;
-                    case "GoldPer10":
-                        return StatType.GOLD_PER_10;
-                    case "Health":
-                        return StatType.HEALTH;
-                    case "HealthRegen":
-                        return StatType.HEALTH_REGEN;
-                    case "LifeSteal":
-                        return StatType.LIFESTEAL;
-                    case "MagicPenetration":
-                        return StatType.MAGIC_PENETRATION;
-                    case "MagicResistance":
-                        return StatType.MAGIC_RESISTANCE;
-                    case "Mana":
-                        return StatType.MANA;
-                    case "ManaRegen":
-                        return StatType.MANA_REGEN;
-                    case "MoveSpeed":
-                        return StatType.MOVESPEED;
-                    case "SpellVamp":
-                        return StatType.SPELL_VAMP;
-                    case "Tenacity":
-                        return StatType.TENACITY;
-                    case "TimeDead":
-                        return StatType.TIME_DEAD;
-                    default:
-                        return StatType.UNDEFINED;
-                }
+                case "AbilityPower":
+                    return StatType.ABILITY_POWER;
+                case "Armor":
+                    return StatType.ARMOR;
+                case "ArmorPenetration":
+                    return StatType.ARMOR_PENETRATION;
+                case "AttackSpeed":
+                    return StatType.ATTACK_SPEED;
+                case "CaptureRate":
+                    return StatType.CAPTURE_RATE;
+                case "CooldownReduction":
+                    return StatType.COOLDOWN_REDUCTION;
+                case "CriticalChance":
+                    return StatType.CRITICAL_CHANCE;
+                case "CriticalDamage":
+                    return StatType.CRITICAL_DAMAGE;
+                case "Damage":
+                    return StatType.DAMAGE;
+                case "Dodge":
+                    return StatType.DODGE;
+                case "Energy":
+                    return StatType.ENERGY;
+                case "EnergyRegen":
+                    return StatType.ENERGY_REGEN;
+                case "ExperienceGained":
+                    return StatType.EXPERIENCE_GAINED;
+                case "GoldPer10":
+                    return StatType.GOLD_PER_10;
+                case "Health":
+                    return StatType.HEALTH;
+                case "HealthRegen":
+                    return StatType.HEALTH_REGEN;
+                case "LifeSteal":
+                    return StatType.LIFESTEAL;
+                case "MagicPenetration":
+                    return StatType.MAGIC_PENETRATION;
+                case "MagicResistance":
+                    return StatType.MAGIC_RESISTANCE;
+                case "Mana":
+                    return StatType.MANA;
+                case "ManaRegen":
+                    return StatType.MANA_REGEN;
+                case "MoveSpeed":
+                    return StatType.MOVESPEED;
+                case "SpellVamp":
+                    return StatType.SPELL_VAMP;
+                case "Tenacity":
+                    return StatType.TENACITY;
+                case "TimeDead":
+                    return StatType.TIME_DEAD;
             }
 
-            catch(Exception ex)
+            throw new InvalidOperationException("Couldn't find a stat type that matches " + data + ".");
+        }
+
+        private RuneType GetRuneType(string data)
+        {
+            switch (data)
             {
-                Debug.WriteLine("sup");
-                return StatType.UNDEFINED;
+                case "Mark":
+                    return RuneType.MARK;
+                case "Seal":
+                    return RuneType.SEAL;
+                case "Glyph":
+                    return RuneType.GLYPH;
+                case "Quintessence":
+                    return RuneType.QUINTESSENCE;
             }
+            throw new InvalidOperationException("Couldn't find a rune type that matches " + data + ".");
         }
     }
 }

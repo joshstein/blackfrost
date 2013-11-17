@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace Alistar.Models
 {
-    public class Item
+    public class Rune
     {
         public string Name { get; set; }
-        public int Id { get; set; }
-        public int Cost { get; set; }
+        public string Magnitude { get; set; }
+        public RuneType RuneType { get; set; }
+        public string Descriptor { get; set; }
         public Stat[] Stats { get; set; }
-        public Effect[] Effects { get; set; }
-        public Item[] BuiltFrom { get; set; }
     }
 }
