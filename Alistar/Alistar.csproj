@@ -48,8 +48,12 @@
     <Compile Include="Models\Champion.cs" />
     <Compile Include="Models\DamageType.cs" />
     <Compile Include="Models\Effect.cs" />
+    <Compile Include="Models\GameType.cs" />
     <Compile Include="Models\Gender.cs" />
     <Compile Include="Models\Item.cs" />
+    <Compile Include="Models\Map.cs" />
+    <Compile Include="Models\Mastery.cs" />
+    <Compile Include="Models\MasteryTreeType.cs" />
     <Compile Include="Models\Quotation.cs" />
     <Compile Include="Models\Rune.cs" />
     <Compile Include="Models\RuneType.cs" />

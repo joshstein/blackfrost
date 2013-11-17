@@ -19,6 +19,8 @@ namespace Alistar.Utilities
         private List<Item> _Items;
         private List<Rune> _Runes;
         private List<Spell> _Spells;
+        private List<Map> _Maps;
+        private List<Mastery> _Masteries;
 
         public AlistarDataStore(string dataDirectory)
         {
@@ -27,11 +29,15 @@ namespace Alistar.Utilities
             _Items = new List<Item>();
             _Runes = new List<Rune>();
             _Spells = new List<Spell>();
+            _Maps = new List<Map>();
+            _Masteries = new List<Mastery>();
 
             GetChampionList();
             GetItemList();
             GetRuneList();
             GetSpellList();
+            GetMapList();
+            GetMasteryList();
         }
 
         // populate _Champions with data from Champions.xml
@@ -299,6 +305,66 @@ namespace Alistar.Utilities
             );
         }
 
+        // populate _Maps with data from Maps.xml
+        private void GetMapList()
+        {
+            _Maps = new List<Map>();
+
+            string mapsDocPath = Path.Combine(DataDirectory, "Maps.xml");
+            XDocument mapsDoc = XDocument.Load(mapsDocPath);
+
+            _Maps.AddRange(
+                from map in mapsDoc.Root.Elements("Map")
+                select new Map()
+                {
+                    Name = XMLPal.GetString(map.Attribute("name")),
+                    Mode = GetMode(XMLPal.GetString(map.Attribute("mode"))),
+                    TeamSize = XMLPal.GetInt(map.Attribute("teamSize")),
+                    Description = XMLPal.GetString(map.Attribute("description"))
+                }
+            );
+        }
+
+        // populate _Masteries with data from MasteryPerks.xml
+        private void GetMasteryList()
+        {
+            _Masteries = new List<Mastery>();
+
+            string masteriesDocPath = Path.Combine(DataDirectory, "MasteryPerks.xml");
+            XDocument masteriesDoc = XDocument.Load(masteriesDocPath);
+
+            foreach(XElement mastery in masteriesDoc.Root.Elements("Perk"))
+            {
+                Mastery newMastery = new Mastery()
+                {
+                    Tree = GetMasteryTree(XMLPal.GetString(mastery.Attribute("tree"))),
+                    Tier = XMLPal.GetInt(mastery.Attribute("tier")),
+                    Name = XMLPal.GetString(mastery.Attribute("name")),
+                    Description = XMLPal.GetString(mastery.Attribute("description")),
+                    Maximum = XMLPal.GetInt(mastery.Attribute("maximum"))
+                };
+
+                List<Stat> stats = new List<Stat>();
+
+                if(mastery.Element("Stats") != null)
+                {
+                    foreach(XElement statElement in mastery.Element("Stats").DescendantNodes())
+                    {
+                        Stat newStat = new Stat()
+                        {
+                            StatType = GetStatType(XMLPal.GetString(statElement.Attribute("statType"))),
+                            Value = XMLPal.GetString(statElement.Attribute("value"))
+                        };
+
+                        stats.Add(newStat);
+                    }
+
+                    newMastery.Stats = stats.ToArray();
+                    _Masteries.Add(newMastery);
+                }
+            }
+        }
+
         private Ability GetAbility(IEnumerable<XElement> abilityElements, AbilityHotkey hotkey)
         {
             return (
@@ -346,6 +412,16 @@ namespace Alistar.Utilities
         public Spell[] Spells
         {
             get { return _Spells.ToArray(); }
+        }
+
+        public Map[] Maps
+        {
+            get { return _Maps.ToArray(); }            
+        }
+
+        public Mastery[] Masteries
+        {
+            get { return _Masteries.ToArray(); }
         }
 
         private Gender GetGender(string data)
@@ -488,6 +564,38 @@ namespace Alistar.Utilities
                     return RuneType.QUINTESSENCE;
             }
             throw new InvalidOperationException("Couldn't find a rune type that matches " + data + ".");
+        }
+
+        private GameType GetMode(string data)
+        {
+            switch (data)
+            {
+                case "CLASSIC":
+                    return GameType.CLASSIC;
+                case "DOMINION":
+                    return GameType.DOMINION;
+                case "ARAM":
+                    return GameType.ARAM;
+                case "FEATURED":
+                    return GameType.FEATURED;
+            }
+
+            throw new InvalidOperationException("Couldn't find a game type that matches " + data + ".");
+        }
+
+        private MasteryTreeType GetMasteryTree(string data)
+        {
+            switch (data)
+            {
+                case "offense":
+                    return MasteryTreeType.OFFENSE;
+                case "defense":
+                    return MasteryTreeType.DEFENSE;
+                case "utility":
+                    return MasteryTreeType.UTILITY;
+            }
+
+            throw new InvalidOperationException("Couldn't find a mastery tree that matches " + data + ".");
         }
     }
 }

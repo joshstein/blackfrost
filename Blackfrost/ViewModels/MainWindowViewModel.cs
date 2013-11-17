@@ -32,6 +32,8 @@ namespace Blackfrost.ViewModels
             Item rylais = Tester.Items.Where(i => i.Name == "Rylai's Crystal Scepter").FirstOrDefault();
             Rune lesserMarkOfMight = Tester.Runes.Where(r => r.Name == "Lesser Mark of Might").FirstOrDefault();
             Spell flash = Tester.Spells.Where(s => s.Name == "Flash").FirstOrDefault();
+            Map crystalScar = Tester.Maps.Where(m => m.Name == "Crystal Scar").FirstOrDefault();
+            Mastery havoc = Tester.Masteries.Where(ma => ma.Name == "Havoc").FirstOrDefault();
 
             Debug.WriteLine("Sup");
         }
