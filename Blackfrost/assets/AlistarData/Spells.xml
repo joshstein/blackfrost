@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Spells>
+  <Spell name="Barrier" level="1" cooldown="125" description="Shields your champion for 100 + (25 × level) for 4 seconds." />
+  <Spell name="Clairvoyance" level="10" cooldown="70" description="Reveals an area of the map for 6 seconds (castable anywhere)." />
+  <Spell name="Clarity" level="6" cooldown="180" description="Restores 160 + (30 x champion level) to your champion and 50% of that to nearby allies." />
+  <Spell name="Cleanse" level="2" cooldown="210" description="Removes all stuns, slows, taunts, fears, snares, sleeps, silences, blinds and immobilizers and lowers the duration of new ones applied by 65% for 3 seconds." />
+  <Spell name="Exhaust" level="1" cooldown="210" description="Exhausts the target champion, reducing movement speed by 40%, attack damage dealt by 70%, and ability and item damage dealt by 35% for 2.5 seconds." />
+  <Spell name="Flash" level="12" cooldown="265" description="Teleports your champion to your cursor's location." />
+  <Spell name="Garrison" level="1" cooldown="210" description="Allied Turret: Grants massive regeneration and attack speed for 8 seconds.\nEnemy Turret: Reduces damage by 80% for 8 seconds." />
+  <Spell name="Ghost" level="1" cooldown="210" description="Your champion ignores unit collision and moves 27% faster for 10 seconds." />
+  <Spell name="Heal" level="1" cooldown="270" description="Restores 100 + (25 x champion level) health to your champion and 50% of that to nearby allies." />
+  <Spell name="Ignite" level="7" cooldown="180" description="Ignites target enemy unit, dealing 50 true damage plus 20 damage per level over 5 seconds, and reduces healing and regeneration by 50%." />
+  <Spell name="Promote" level="8" cooldown="180" description="Promotes the nearest allied super-minion to an Anti-Turret Cannon, healing it, granting it bonus stats, and causing it to grant the caster gold for its kills." />
+  <Spell name="Revive" level="1" cooldown="540" description="Instantly revives your champion at your spawning pool. In addition, your champion gains a speed bonus that decreases over time." />
+  <Spell name="Smite" level="1" cooldown="70" description="Deals 420 + (25 x champion level) true damage to target enemy minion or pet." />
+  <Spell name="Surge" level="1" cooldown="180" description="Empowers your champion, increasing ability power by 10-78 (depending on level) and attack speed by 35% for 12 seconds." />
+  <Spell name="Teleport" level="1" cooldown="300" description="After 4 seconds, teleports your champion to target friendly minion or turret." />
+</Spells>

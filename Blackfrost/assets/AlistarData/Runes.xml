@@ -1,0 +1,1379 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Runes>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Warding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.41" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Shielding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.05" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Vigor">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="0.24" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Regeneration">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="0.06" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Strength">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.53" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Might">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.08" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Alacrity">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.0094" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Focus">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0091" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Celerity">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0007" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Strength">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.16" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Furor">
+    <Stats>
+      <AdditiveStat statType="CriticalDamage" value="0.0124" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Might">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.02" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Potency">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="2.75" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Alacrity">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.0035" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Force">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.24" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Vampirism">
+    <Stats>
+      <AdditiveStat statType="LifeSteal" value="0.0112" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Malice">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.0052" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Furor">
+    <Stats>
+      <AdditiveStat statType="CriticalDamage" value="0.0031" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Strength">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.24" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Intellect">
+    <Stats>
+      <AdditiveStat statType="Mana" value="20.83" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Desolation">
+    <Stats>
+      <AdditiveStat statType="ArmorPenetration" value="0.93" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Might">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.03" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Knowledge">
+    <Stats>
+      <AdditiveStat statType="Mana" value="2.31" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Malice">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.0015" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Alacrity">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.0042" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Replenishment">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.69" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Endurance">
+    <Stats>
+      <MultiplicativeStat statType="Health" value="0.0028" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Clarity">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.14" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Furor">
+    <Stats>
+      <AdditiveStat statType="CriticalDamage" value="0.0043" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Strength">
+    <Stats>
+      <AdditiveStat statType="Damage" value="1.25" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Insight">
+    <Stats>
+      <AdditiveStat statType="MagicPenetration" value="1.05" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Might">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.14" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Malice">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.0023" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Alacrity">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.0189" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Furor">
+    <Stats>
+      <AdditiveStat statType="CriticalDamage" value="0.0248" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Malice">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.0103" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Desolation">
+    <Stats>
+      <AdditiveStat statType="ArmorPenetration" value="1.85" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Fortitude">
+    <Stats>
+      <AdditiveStat statType="Health" value="14.5" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Focus">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0009" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Vitality">
+    <Stats>
+      <AdditiveStat statType="Health" value="1.5" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Resilience">
+    <Stats>
+      <AdditiveStat statType="Armor" value="2.37" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Potency">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.33" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Force">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.06" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Defense">
+    <Stats>
+      <AdditiveStat statType="Armor" value="0.21" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Intellect">
+    <Stats>
+      <AdditiveStat statType="Mana" value="3.28" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Focus">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0036" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Warding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="2.5" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Knowledge">
+    <Stats>
+      <AdditiveStat statType="Mana" value="0.65" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Celerity">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0003" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Shielding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.21" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Potency">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.55" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Vigor">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="1.5" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Replenishment">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.15" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Force">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.1" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Regeneration">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="0.16" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Endurance">
+    <Stats>
+      <MultiplicativeStat statType="Health" value="0.0084" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Intellect">
+    <Stats>
+      <AdditiveStat statType="Mana" value="6.25" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Focus">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0016" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Knowledge">
+    <Stats>
+      <AdditiveStat statType="Mana" value="0.79" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Insight">
+    <Stats>
+      <AdditiveStat statType="MagicPenetration" value="0.53" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Replenishment">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.17" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Potency">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.33" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Transmutation">
+    <Stats>
+      <AdditiveStat statType="SpellVamp" value="0.0112" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Force">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.06" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Clarity">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.03" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Intellect">
+    <Stats>
+      <AdditiveStat statType="Mana" value="3.83" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Insight">
+    <Stats>
+      <AdditiveStat statType="MagicPenetration" value="0.32" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Knowledge">
+    <Stats>
+      <AdditiveStat statType="Mana" value="0.65" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Replenishment">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.23" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Clarity">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.036" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Fortitude">
+    <Stats>
+      <AdditiveStat statType="Health" value="1.93" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Vitality">
+    <Stats>
+      <AdditiveStat statType="Health" value="0.3" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Resilience">
+    <Stats>
+      <AdditiveStat statType="Armor" value="0.51" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Swiftness">
+    <Stats>
+      <AdditiveStat statType="MoveSpeed" value="0.0083" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Warding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.54" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Fortitude">
+    <Stats>
+      <AdditiveStat statType="Health" value="1.49" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Vitality">
+    <Stats>
+      <AdditiveStat statType="Health" value="0.3" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Shielding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.04" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Resilience">
+    <Stats>
+      <AdditiveStat statType="Armor" value="0.39" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Warding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.83" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Fortitude">
+    <Stats>
+      <AdditiveStat statType="Health" value="2.97" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Shielding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.08" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Vitality">
+    <Stats>
+      <AdditiveStat statType="Health" value="0.6" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Glyph" descriptor="Vigor">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="0.15" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Resilience">
+    <Stats>
+      <AdditiveStat statType="Armor" value="0.78" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Seal" descriptor="Defense">
+    <Stats>
+      <AdditiveStat statType="Armor" value="0.08" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Mark" descriptor="Destruction">
+    <Stats>
+      <AdditiveStat statType="ArmorPenetration" value="0.56" />
+      <AdditiveStat statType="MagicPenetration" value="0.32" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Lesser" type="Quintessence" descriptor="Destruction">
+    <Stats>
+      <AdditiveStat statType="ArmorPenetration" value="1.11" />
+      <AdditiveStat statType="MagicPenetration" value="0.63" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Malice">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.0072" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Force">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.34" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Furor">
+    <Stats>
+      <AdditiveStat statType="CriticalDamage" value="0.0043" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Strength">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.33" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Intellect">
+    <Stats>
+      <AdditiveStat statType="Mana" value="29.17" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Might">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.05" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Knowledge">
+    <Stats>
+      <AdditiveStat statType="Mana" value="3.24" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Alacrity">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.0059" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Replenishment">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.97" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Malice">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.0022" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Furor">
+    <Stats>
+      <AdditiveStat statType="CriticalDamage" value="0.0061" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Malice">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.0032" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Desolation">
+    <Stats>
+      <AdditiveStat statType="ArmorPenetration" value="2.59" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Vampirism">
+    <Stats>
+      <AdditiveStat statType="LifeSteal" value="0.0156" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Fortitude">
+    <Stats>
+      <AdditiveStat statType="Health" value="20" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Vitality">
+    <Stats>
+      <AdditiveStat statType="Health" value="2.1" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Focus">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0013" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Resilience">
+    <Stats>
+      <AdditiveStat statType="Armor" value="3.32" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Potency">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.46" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Endurance">
+    <Stats>
+      <MultiplicativeStat statType="Health" value="0.0039" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Force">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.08" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Defense">
+    <Stats>
+      <AdditiveStat statType="Armor" value="0.29" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Intellect">
+    <Stats>
+      <AdditiveStat statType="Mana" value="4.59" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Focus">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0051" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Warding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="3.5" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Celerity">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0004" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Shielding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.29" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Knowledge">
+    <Stats>
+      <AdditiveStat statType="Mana" value="0.91" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Potency">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.77" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Vigor">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="2.1" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Replenishment">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.2" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Force">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.13" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Intellect">
+    <Stats>
+      <AdditiveStat statType="Mana" value="8.75" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Knowledge">
+    <Stats>
+      <AdditiveStat statType="Mana" value="1.1" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Replenishment">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.24" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Clarity">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.05" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Desolation">
+    <Stats>
+      <AdditiveStat statType="ArmorPenetration" value="1.29" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Strength">
+    <Stats>
+      <AdditiveStat statType="Damage" value="1.75" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Fortitude">
+    <Stats>
+      <AdditiveStat statType="Health" value="2.7" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Clarity">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.19" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Vitality">
+    <Stats>
+      <AdditiveStat statType="Health" value="0.42" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Might">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.19" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Insight">
+    <Stats>
+      <AdditiveStat statType="MagicPenetration" value="1.47" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Resilience">
+    <Stats>
+      <AdditiveStat statType="Armor" value="0.71" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Alacrity">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.0264" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Swiftness">
+    <Stats>
+      <AdditiveStat statType="MoveSpeed" value="0.0117" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Endurance">
+    <Stats>
+      <MultiplicativeStat statType="Health" value="0.0117" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Fortitude">
+    <Stats>
+      <AdditiveStat statType="Health" value="2.08" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Furor">
+    <Stats>
+      <AdditiveStat statType="CriticalDamage" value="0.0347" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Warding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.75" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Vitality">
+    <Stats>
+      <AdditiveStat statType="Health" value="0.42" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Shielding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.06" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Resilience">
+    <Stats>
+      <AdditiveStat statType="Armor" value="0.55" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Malice">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.0144" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Transmutation">
+    <Stats>
+      <AdditiveStat statType="SpellVamp" value="0.0156" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Warding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="1.16" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Fortitude">
+    <Stats>
+      <AdditiveStat statType="Health" value="4.16" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Shielding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.12" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Vitality">
+    <Stats>
+      <AdditiveStat statType="Health" value="0.84" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Vigor">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="0.21" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Resilience">
+    <Stats>
+      <AdditiveStat statType="Armor" value="1.09" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Defense">
+    <Stats>
+      <AdditiveStat statType="Armor" value="0.12" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Warding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.58" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Shielding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.08" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Vigor">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="0.34" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Regeneration">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="0.09" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Strength">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.74" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Focus">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0023" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Regeneration">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="0.22" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Might">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.1" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Alacrity">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.0132" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Insight">
+    <Stats>
+      <AdditiveStat statType="MagicPenetration" value="0.74" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Potency">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.46" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Force">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.08" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Focus">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0127" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Strength">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.22" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Intellect">
+    <Stats>
+      <AdditiveStat statType="Mana" value="5.36" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Celerity">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.001" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Furor">
+    <Stats>
+      <AdditiveStat statType="CriticalDamage" value="0.0174" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Might">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.03" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Clarity">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.04" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Knowledge">
+    <Stats>
+      <AdditiveStat statType="Mana" value="0.91" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Potency">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="3.85" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Alacrity">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.005" />
+    </Stats>
+  </Rune>
+  <Rune type="Glyph" descriptor="Insight">
+    <Stats>
+      <AdditiveStat statType="MagicPenetration" value="0.44" />
+    </Stats>
+  </Rune>
+  <Rune type="Seal" descriptor="Replenishment">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.32" />
+    </Stats>
+  </Rune>
+  <Rune type="Mark" descriptor="Destruction">
+    <Stats>
+      <AdditiveStat statType="ArmorPenetration" value="0.74" />
+      <AdditiveStat statType="MagicPenetration" value="0.44" />
+    </Stats>
+  </Rune>
+  <Rune type="Quintessence" descriptor="Destruction">
+    <Stats>
+      <AdditiveStat statType="ArmorPenetration" value="1.55" />
+      <AdditiveStat statType="MagicPenetration" value="0.88" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Lucidity">
+    <Stats>
+      <AdditiveStat statType="EnergyRegen" value="0.064" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Resilience">
+    <Stats>
+      <AdditiveStat statType="Armor" value="1.41" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Acumen">
+    <Stats>
+      <AdditiveStat statType="Energy" value="2.2" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Fortitude">
+    <Stats>
+      <AdditiveStat statType="Health" value="26" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Shielding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.15" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Defense">
+    <Stats>
+      <AdditiveStat statType="Armor" value="0.15" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Sapience">
+    <Stats>
+      <AdditiveStat statType="Energy" value="0.161" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Focus">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0016" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Vigor">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="0.27" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Warding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.74" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Meditation">
+    <Stats>
+      <AdditiveStat statType="EnergyRegen" value="1.575" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Vitality">
+    <Stats>
+      <AdditiveStat statType="Health" value="2.7" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Acumen">
+    <Stats>
+      <AdditiveStat statType="Energy" value="5.4" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Resilience">
+    <Stats>
+      <AdditiveStat statType="Armor" value="4.26" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Potency">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.59" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Defense">
+    <Stats>
+      <AdditiveStat statType="Armor" value="0.38" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Force">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.1" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Warding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="4.5" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Focus">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0065" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Intellect">
+    <Stats>
+      <AdditiveStat statType="Mana" value="5.91" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Celerity">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0005" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Potency">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.99" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Force">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.17" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Intellect">
+    <Stats>
+      <AdditiveStat statType="Mana" value="11.25" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Knowledge">
+    <Stats>
+      <AdditiveStat statType="Mana" value="1.42" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Replenishment">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.31" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Clarity">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.055" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Insight">
+    <Stats>
+      <AdditiveStat statType="MagicPenetration" value="0.57" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Knowledge">
+    <Stats>
+      <AdditiveStat statType="Mana" value="1.17" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Replenishment">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.41" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Vampirism">
+    <Stats>
+      <AdditiveStat statType="LifeSteal" value="0.02" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Clarity">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.065" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Malice">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.0093" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Strength">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.43" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Might">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.06" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Knowledge">
+    <Stats>
+      <AdditiveStat statType="Mana" value="4.17" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Desolation">
+    <Stats>
+      <AdditiveStat statType="ArmorPenetration" value="1.66" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Alacrity">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.0076" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Endurance">
+    <Stats>
+      <MultiplicativeStat statType="Health" value="0.005" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Replenishment">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="1.25" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Clarity">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.24" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Strength">
+    <Stats>
+      <AdditiveStat statType="Damage" value="2.25" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Malice">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.0028" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Furor">
+    <Stats>
+      <AdditiveStat statType="CriticalDamage" value="0.0078" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Fortitude">
+    <Stats>
+      <AdditiveStat statType="Health" value="3.47" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Insight">
+    <Stats>
+      <AdditiveStat statType="MagicPenetration" value="1.89" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Might">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.25" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Vitality">
+    <Stats>
+      <AdditiveStat statType="Health" value="0.54" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Alacrity">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.034" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Resilience">
+    <Stats>
+      <AdditiveStat statType="Armor" value="0.91" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Swiftness">
+    <Stats>
+      <AdditiveStat statType="MoveSpeed" value="0.015" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Revival">
+    <Stats>
+      <AdditiveStat statType="TimeDead" value="0.05" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Furor">
+    <Stats>
+      <AdditiveStat statType="CriticalDamage" value="0.0446" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Fortitude">
+    <Stats>
+      <AdditiveStat statType="Health" value="2.67" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Avarice">
+    <Stats>
+      <AdditiveStat statType="GoldPer10" value="1" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Warding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.97" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Vitality">
+    <Stats>
+      <AdditiveStat statType="Health" value="0.54" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Resilience">
+    <Stats>
+      <AdditiveStat statType="Armor" value="0.7" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Wisdom">
+    <Stats>
+      <AdditiveStat statType="ExperienceGained" value="0.02" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Meditation">
+    <Stats>
+      <AdditiveStat statType="EnergyRegen" value="0.63" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Warding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="1.49" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Shielding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.1" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Vigor">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="0.43" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Regeneration">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="0.11" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Avarice">
+    <Stats>
+      <AdditiveStat statType="GoldPer10" value="0.25" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Shielding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.37" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Vigor">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="2.7" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Knowledge">
+    <Stats>
+      <AdditiveStat statType="Mana" value="1.17" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Endurance">
+    <Stats>
+      <MultiplicativeStat statType="Health" value="0.015" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Regeneration">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="0.28" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Strength">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.95" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Replenishment">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="0.26" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Focus">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0029" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Might">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.13" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Insight">
+    <Stats>
+      <AdditiveStat statType="MagicPenetration" value="0.95" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Potency">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.59" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Transmutation">
+    <Stats>
+      <AdditiveStat statType="SpellVamp" value="0.02" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Focus">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0164" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Alacrity">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.017" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Force">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.1" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Celerity">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0013" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Strength">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.28" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Intellect">
+    <Stats>
+      <AdditiveStat statType="Mana" value="6.89" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Furor">
+    <Stats>
+      <AdditiveStat statType="CriticalDamage" value="0.0223" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Might">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.04" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Potency">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="4.95" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Alacrity">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.0064" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Force">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.43" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Intellect">
+    <Stats>
+      <AdditiveStat statType="Mana" value="37.5" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Glyph" descriptor="Furor">
+    <Stats>
+      <AdditiveStat statType="CriticalDamage" value="0.0056" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Malice">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.0042" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Malice">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.0186" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Shielding">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="0.07" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Fortitude">
+    <Stats>
+      <AdditiveStat statType="Health" value="5.35" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Desolation">
+    <Stats>
+      <AdditiveStat statType="ArmorPenetration" value="3.33" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Seal" descriptor="Vitality">
+    <Stats>
+      <AdditiveStat statType="Health" value="1.08" isPerLevel="True" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Mark" descriptor="Destruction">
+    <Stats>
+      <AdditiveStat statType="ArmorPenetration" value="1" />
+      <AdditiveStat statType="MagicPenetration" value="0.57" />
+    </Stats>
+  </Rune>
+  <Rune magnitude="Greater" type="Quintessence" descriptor="Destruction">
+    <Stats>
+      <AdditiveStat statType="ArmorPenetration" value="2" />
+      <AdditiveStat statType="MagicPenetration" value="1.13" />
+    </Stats>
+  </Rune>
+</Runes>

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Perks>
+  <!--OFFENSE TIER 1-->
+  <Perk tree="offense" tier="1" name="Summoner's Wrath" description="Improves the following summoner spells:\n\nExhaust: Reduces target's magic resistance and armor by 10.\nIgnite: Increases ability power and attack damage by 5 while on cooldown.\nSurge: Increases ability power and attack speed gained by 10%.\nGhost: Increases movement speed bonus to 35%" maximum="1" />
+  <Perk tree="offense" tier="1" name="Brute Force" description="Increases your attack damage by 1/2/3." maximum="3">
+    <Stats>
+      <AdditiveStat statType="Damage" value="1" />
+    </Stats>
+  </Perk>
+  <Perk tree="offense" tier="1" name="Mental Force" description="Increases your ability power by 1/2/3/4." maximum="4">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="1" />
+    </Stats>
+  </Perk>
+  <Perk tree="offense" tier="1" name="Butcher" description="Basic attacks deal 2/4 bonus damage to minions and monsters." maximum="2" />
+  <!--OFFENSE TIER 2-->
+  <Perk tree="offense" tier="2" name="Alacrity" description="Increases your attack speed by 1.5%/3%/4.5%/6%" maximum="4">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.015" />
+    </Stats>
+  </Perk>
+  <Perk tree="offense" tier="2" name="Sorcery" description="Increases your champion's cooldown reduction by 1%/2%/3%/4%." maximum="4">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.01" />
+    </Stats>
+  </Perk>
+  <Perk tree="offense" tier="2" name="Demolitionist" description="Basic attacks deal 10 bonus damage to towers." maximum="1" />
+  <!--OFFENSE TIER 3-->
+  <Perk tree="offense" tier="3" name="Deadliness" description="Increases your attack damage by 0.5 per level." maximum="4">
+    <Stats>
+      <AdditiveStat statType="Damage" value="0.5" />
+    </Stats>
+  </Perk>
+  <Perk tree="offense" tier="3" name="Weapon Expertise" description="Increases your armor penetration by 10%." maximum="1" dependsOn="alacrity">
+    <Stats>
+      <MultiplicativeStat statType="ArmorPenetration" value="0.1" />
+    </Stats>
+  </Perk>
+  <Perk tree="offense" tier="3" name="Arcane Knowledge" description="Increases your magic penetration by 10%." maximum="1" dependsOn="sorcery">
+    <Stats>
+      <MultiplicativeStat statType="MagicPenetration" value="0.1" />
+    </Stats>
+  </Perk>
+  <Perk tree="offense" tier="3" name="Havoc" description="Increases damage dealt by 0.5%/1%/1.5%." maximum="3">
+    <Stats>
+      <MultiplicativeStat statType="Damage" value="0.005" />
+      <MultiplicativeStat statType="AbilityPower" value="0.005" />
+    </Stats>
+  </Perk>
+  <!--OFFENSE TIER 4-->
+  <Perk tree="offense" tier="4" name="Lethality" description="Increases your critical strike damage by 10%." maximum="1" dependsOn="deadliness">
+    <Stats>
+      <AdditiveStat statType="Damage" value="1" />
+    </Stats>
+  </Perk>
+  <Perk tree="offense" tier="4" name="Vampirism" description="Increases your lifesteal by 1%/2%/3%." maximum="3">
+    <Stats>
+      <AdditiveStat statType="LifeSteal" value="0.01" />
+    </Stats>
+  </Perk>
+  <Perk tree="offense" tier="4" name="Blast" description="Increases your ability power by 0.25/0.5/0.75/1 per level." maximum="4">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="0.25" isPerLevel="true" />
+    </Stats>
+  </Perk>
+  <!--OFFENSE TIER 5-->
+  <Perk tree="offense" tier="5" name="Sunder" description="Increases your armor penetration by 2/4/6." maximum="3">
+    <Stats>
+      <AdditiveStat statType="ArmorPenetration" value="2" />
+    </Stats>
+  </Perk>
+  <Perk tree="offense" tier="5" name="Archmage" description="Increases your ability power by 1.25%/2.5%/3.75%/5%." maximum="4">
+    <Stats>
+      <MultiplicativeStat statType="AbilityPower" value="0.0125" />
+    </Stats>
+  </Perk>
+  <!--OFFENSE TIER 6-->
+  <Perk tree="offense" tier="6" name="Executioner" description="Increases damage dealt by 6% to targets below 40% health." maximum="1">
+    <Stats>
+      <MultiplicativeStat statType="Damage" value="0.06" />
+      <MultiplicativeStat statType="AbilityPower" value="0.06" />
+    </Stats>
+  </Perk>
+  
+  <!--DEFENSE TIER 1-->
+  <Perk tree="defense" tier="1" name="Summoner's Resolve" description="Improves the following summoner spells:\n\nRevive: Grants a massive movement speed boost for a short duration upon reviving.\nCleanse: Increases duration of disable reduction by 1 second.\nHeal: Increases health restpred by 15%.\nSmite: Grants 10 bonus gold on use.\nGarrison: Allied garrisoned turrets deal 50% splash damage." maximum="1" />
+  <Perk tree="defense" tier="1" name="Resistance" description="Increases your champion's magic resistance by 2/4/6." maximum="3">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="2" />
+    </Stats>
+  </Perk>
+  <Perk tree="defense" tier="1" name="Hardiness" description="Increases your champion's armor by 2/4/6." maximum="3">
+    <Stats>
+      <AdditiveStat statType="Armor" value="2" />
+    </Stats>
+  </Perk>
+  <Perk tree="defense" tier="1" name="Tough Skin" description="Reduces damage taken from minions and monsters by 1/2." maximum="2" />
+  <!--DEFENSE TIER 2-->
+  <Perk tree="defense" tier="2" name="Durability" description="Increases your champion's health by 1.5/3/4.5/6 per level." maximum="4">
+    <Stats>
+      <AdditiveStat statType="Health" value="1.5" isPerLevel="true" />
+    </Stats>
+  </Perk>
+  <Perk tree="defense" tier="2" name="Vigor" description="Increases your champion's health regen by 1/2/3." maximum="3">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="1" />
+    </Stats>
+  </Perk>
+  <!--DEFENSE TIER 3-->
+  <Perk tree="defense" tier="3" name="Indomitable" description="Reduces incoming damage by 1/2." maximum="2" />
+  <Perk tree="defense" tier="3" name="Veteran's Scars" description="Increases your champion's health by 30." maximum="1" dependsOn="durability" />
+  <Perk tree="defense" tier="3" name="Evasion" description="Reduces damage taken from area of effect abilities by 1%/2%/3%." maximum="3" />
+  <Perk tree="defense" tier="3" name="Bladed Armor" description="Returns 6 damage against minion and monster attacks." maximum="1" dependsOn="tough-skin" />
+  <!--DEFENSE TIER 4-->
+  <Perk tree="defense" tier="4" name="Siege Commander" description="Reduces the armor of nearby enemy towers by 10 (does not stack)." maximum="1" />
+  <Perk tree="defense" tier="4" name="Initiator" description="Increases movement speed by 1%/2%/3% when above 70% health." maximum="3">
+    <Stats>
+      <MultiplicativeStat statType="MoveSpeed" value="0.01" />
+    </Stats>
+  </Perk>
+  <Perk tree="defense" tier="4" name="Enlightenment" description="Increases your champion's cooldown reduction by 0.15%/0.3%/0.45% per level." maximum="3">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.0015" isPerLevel="true" />
+    </Stats>
+  </Perk>
+  <!--DEFENSE TIER 5-->
+  <Perk tree="defense" tier="5" name="Honor Guard" description="Reduces damage taken by 0.5%/1%/1.5%." maximum="3" />
+  <Perk tree="defense" tier="5" name="Mercenary" description="Gain 8/16/24 bonus gold on champion kills and assists (50% reduced effect on the Crystal Scar)." maximum="3" />
+  <!--DEFENSE TIER 6-->
+  <Perk tree="defense" tier="6" name="Juggernaut" description="Increases your maximum health by 3% and reduces the duration of incoming disables by 10%." maximum="1">
+    <Stats>
+      <MultiplicativeStat statType="Health" value="0.03" />
+      <AdditiveStat statType="Tenacity" value="0.1" />
+    </Stats>
+  </Perk>
+
+  <!--UTILITY TIER 1-->
+  <Perk tree="utility" tier="1" name="Summoner's Insight" description="Improves the following summoner spells:\n\nTeleport: Reduces cast time by 1 second.\nPromote: Increases promoted minion's bonus defensive stats by 15%.\nFlash: Reduces cooldown by 15 seconds.\nClarity: Increases mana restored by 20%.\nClairvoyance: Increases duration by 2 seconds." maximum="1" />
+  <Perk tree="utility" tier="1" name="Good Hands" description="Reduces the time spent dead by 4%/7%/10%" maximum="3" />
+  <Perk tree="utility" tier="1" name="Expanded Mind" description="Increases your champion's mana by 4/8/12 per level or grants 4/7/10 additional energy." maximum="3">
+    <Stats>
+      <AdditiveStat statType="Mana" value="4" isPerLevel="true" />
+    </Stats>
+  </Perk>
+  <Perk tree="utility" tier="1" name="Improved Recall" description="Reduces the cast time of Recall by 1 second and Enhanced Recall by 0.5 seconds." maximum="1" />
+  <!--UTILITY TIER 2-->
+  <Perk tree="utility" tier="2" name="Swiftness" description="Increases your movement speed by 0.5%/1%/1.5%/2%." maximum="4">
+    <Stats>
+      <MultiplicativeStat statType="MoveSpeed" value="0.005" />
+    </Stats>
+  </Perk>
+  <Perk tree="utility" tier="2" name="Meditation" description="Increases your champion's mana regeneration per 5 seconds by 1/2/3." maximum="3" dependsOn="expanded-mind">
+    <Stats>
+      <Additive statType="ManaRegen" value="1" />
+    </Stats>
+  </Perk>
+  <Perk tree="utility" tier="2" name="Scout" description="Increases vision range of wards by 5%." maximum="1" />
+  <!--UTILITY TIER 3-->
+  <Perk tree="utility" tier="3" name="Greed" description="Gain an additional 0.5/1/1.5/2 gold every 10 seconds." maximum="4" />
+  <Perk tree="utility" tier="3" name="Transmutation" description="Increases your champion's spell vamp by 1%/2%/3%." maximum="3">
+    <Stats>
+      <AdditiveStat statType="SpellVamp" value="0.01" />
+    </Stats>
+  </Perk>
+  <Perk tree="utility" tier="3" name="Runic Affinity" description="Increases the duration of shrine, relic, quest, and neutral monster buffs by 20%." maximum="1" />
+  <!--UTILITY TIER 4-->
+  <Perk tree="utility" tier="4" name="Wealth" description="Increases your starting gold by 20/40." maximum="2" dependsOn="greed" />
+  <Perk tree="utility" tier="4" name="Awareness" description="Increases experience gained by 1.25%/2.5%/3.75%/5%." maximum="4">
+    <Stats>
+      <AdditiveStat statType="ExperienceGained" value="0.0125" />
+    </Stats>
+  </Perk>
+  <Perk tree="utility" tier="4" name="Sage" description="Gain 40 bonus experience on champion kills and assists (50% reduced effect on the Crystal Scar)." maximum="1" />
+  <!--UTILITY TIER 5-->
+  <Perk tree="utility" tier="5" name="Perseverance" description="Increases health regen and mana regen by 3%/6%/9%." maximum="3">
+    <Stats>
+      <MultiplicativeStat statType="HealthRegen" value="0.03" />
+      <MultiplicativeStat statType="ManaRegen" value="0.03" />
+    </Stats>
+  </Perk>
+  <Perk tree="utility" tier="5" name="Intelligence" description="Increases your champion's cooldown reduction by 2%/4%/6%." maximum="3">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.02" />
+    </Stats>
+  </Perk>
+  <!--UTILITY TIER 6-->
+  <Perk tree="utility" tier="6" name="Mastermind" description="Reduces the cooldown of your summoner spells by 15%." maximum="1" />
+</Perks>

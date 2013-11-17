@@ -1,0 +1,1647 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item name="Abyssal Scepter" id="3001" cost="1050">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="70" />
+      <AdditiveStat statType="MagicResistance" value="57" />
+    </Stats>
+    <Effects>
+      <Effect isAura="true" isUnique="true">
+        Reduces the Magic Resist of enemy champions in a 600 unit radius by 20.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="blasting-wand" />
+      <Item slug="negatron-cloak" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Aegis of the Legion" id="3105" cost="750">
+    <Stats>
+      <AdditiveStat statType="Armor" value="18" />
+      <AdditiveStat statType="Health" value="270" />
+      <AdditiveStat statType="MagicResistance" value="24" />
+    </Stats>
+    <Effects>
+      <Effect isAura="true" isUnique="true">
+        +12 Armor / +15 Magic Resistance / +8 Damage to nearby allied units.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="cloth-armor" />
+      <Item slug="null-magic-mantle" />
+      <Item slug="ruby-crystal" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Amplifying Tome" id="1052" cost="435">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="20" />
+    </Stats>
+  </Item>
+  <Item name="Archangel's Staff" id="3003" cost="1000">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="45" />
+      <AdditiveStat statType="Mana" value="400" />
+      <AdditiveStat statType="ManaRegen" value="25" />
+    </Stats>
+    <Effects>
+      <Effect>
+        3% of your max mana is converted to ability power.
+      </Effect>
+      <Effect isUnique="true">
+        Each time your champion uses an ability, their maximum mana will increase by 4.
+        This effect has a 3 second cooldown. Bonus caps at 1000 mana.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="blasting-wand" />
+      <Item slug="tear-of-the-goddess" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Athene's Unholy Grail" id="3174" cost="500">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="90" />
+      <AdditiveStat statType="CooldownReduction" value="0.15" />
+      <AdditiveStat statType="MagicResistance" value="40" />
+      <AdditiveStat statType="ManaRegen" value="15" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Restores 12% of your maximum mana on kill or assist.
+      </Effect>
+      <Effect isUnique="true">
+        Increases your mana regeneration by 1% per 1% mana you're missing.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="amplifying-tome" />
+      <Item slug="chalice-of-harmony" />
+      <Item slug="fiendish-codex" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Atma's Impaler" id="3005" cost="825">
+    <Stats>
+      <AdditiveStat statType="Armor" value="45" />
+      <AdditiveStat statType="CriticalChance" value="0.18" />
+    </Stats>
+    <Effects>
+      <Effect>
+        2% of your maximum health is added to your attack damage.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="chain-vest" />
+      <Item slug="cloak-of-agility" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Avarice Blade" id="3093" cost="350">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.12" />
+      <AdditiveStat statType="GoldPer10" value="5" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        The Gold Per 10 aspect of this item is unique.
+      </Effect>
+    </Effects>
+    <BuildsFrom>
+      <Item slug="brawlers-gloves" />
+    </BuildsFrom>
+  </Item>
+  <Item name="B.F. Sword" id="1038" cost="1650">
+    <Stats>
+      <AdditiveStat statType="Damage" value="45" />
+    </Stats>
+  </Item>
+  <Item name="Banshee's Veil" id="3102" cost="650">
+    <Stats>
+      <AdditiveStat statType="Health" value="375" />
+      <AdditiveStat statType="MagicResistance" value="50" />
+      <AdditiveStat statType="Mana" value="375" /> 
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Blocks one negative spell every 30 seconds.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="catalyst-the-protector" />
+      <Item slug="negatron-cloak" />
+    </BuiltFrom>
+    <Maps>
+      <Map slug="summoners-rift" />
+      <Map slug="twisted-treeline" />
+    </Maps>
+  </Item>
+  <Item name="Berserker's Greaves" id="3006" cost="150">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.25" />
+      <AdditiveStat statType="MoveSpeed" value="70" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="boots-of-speed" />
+      <Item slug="dagger" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Bilgewater Cutlass" id="3144" cost="400">
+    <Stats>
+      <AdditiveStat statType="Damage" value="35" />
+      <AdditiveStat statType="LifeSteal" value="0.15" />
+    </Stats>
+    <Effects>
+      <Effect isActive="true" isUnique="true">
+        Deals 150 magic damage and slows the target champion by 50% for 3 seconds (400 range). 60 second cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="pickaxe" />
+      <Item slug="vampiric-scepter" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Blasting Wand" id="1026" cost="860">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="40" />
+    </Stats>
+  </Item>
+  <Item name="Boots of Mobility" id="3117" cost="650">
+    <Stats>
+      <AdditiveStat statType="MoveSpeed" value="70" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        When out of combat for 5 seconds, the effect of these boots is increased to Enhanced Movement 5.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="boots-of-speed" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Boots of Speed" id="1001" cost="350">
+    <Stats>
+      <AdditiveStat statType="MoveSpeed" value="50" />
+    </Stats>
+  </Item>
+  <Item name="Boots of Swiftness" id="3009" cost="650">
+    <Stats>
+      <AdditiveStat statType="MoveSpeed" value="90" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="boots-of-speed" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Bonetooth Necklace" id="3166" cost="800">
+    <Stats>
+      <AdditiveStat statType="Damage" value="10" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Grants +2 attack damage per level.
+      </Effect>
+      <Effect isUnique="true">
+        Rengar collects trophies when killing Champions, and gains bonus effects based on how many trophies he has. Kills and assists grant 1 trophy, and 1 trophy is lost on death.
+        \n\n
+        3 Trophies: +10 armor penetration, +5% cooldown reduction
+        \n
+        6 Trophies: +25 movement speed
+        \n
+        9 Trophies: Rengar's leap gains 150 bonus range.
+        \n
+        14 Trophies:  Thrill of the Hunt's duration is increased by 3 seconds. Additionally, Rengar's next ability used after activating Thrill of the Hunt generates 1 bonus Ferocity.
+      </Effect>
+    </Effects>
+  </Item>
+  <Item name="Brawler's Gloves" id="1051" cost="400">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.08" />
+    </Stats>
+  </Item>
+  <Item name="Catalyst the Protector" id="3010" cost="450">
+    <Stats>
+      <AdditiveStat statType="Health" value="290" />
+      <AdditiveStat statType="Mana" value="325" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Restores 250 health and 200 mana upon leveling up over 8 seconds.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="ruby-crystal" />
+      <Item slug="sapphire-crystal" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Chain Vest" id="1031" cost="700">
+    <Stats>
+      <AdditiveStat statType="Armor" value="45" />
+    </Stats>
+  </Item>
+  <Item name="Chalice of Harmony" id="3028" cost="100">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="30" />
+      <AdditiveStat statType="ManaRegen" value="7.5" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Increases your mana regen by 1% per 1% mana you're missing.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="meki-pendant" />
+      <Item slug="null-magic-mantle" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Cloak and Dagger" id="3172" cost="200">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.2" />
+      <AdditiveStat statType="CriticalChance" value="0.2" />
+      <AdditiveStat statType="Tenacity" value="35" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="cloak-of-agility" />
+      <Item slug="dagger" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Cloak of Agility" id="1018" cost="830">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.18" />
+    </Stats>
+  </Item>
+  <Item name="Cloth Armor" id="1029" cost="300">
+    <Stats>
+      <AdditiveStat statType="Armor" value="18" />
+    </Stats>
+  </Item>
+  <Item name="Dagger" id="1042" cost="420">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.15" />
+    </Stats>
+  </Item>
+  <Item name="Deathfire Grasp" id="3128" cost="600">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="80" />
+      <AdditiveStat statType="CooldownReduction" value="0.15" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true" isActive="true">
+        Deals magic damage to target champion equal to 25% of their current health (+4% per 100 ability power) with a minimum of 200 damage. 1 minute cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="blasting-wand" />
+      <Item slug="kages-lucky-pick" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Doran's Blade" id="1055" cost="435">
+    <Stats>
+      <AdditiveStat statType="Damage" value="8" />
+      <AdditiveStat statType="Health" value="100" />
+      <AdditiveStat statType="LifeSteal" value="0.03" />
+    </Stats>
+    <Maps>
+      <Map slug="summoners-rift" />
+      <Map slug="twisted-treeline" />
+    </Maps>
+  </Item>
+  <Item name="Doran's Ring" id="1056" cost="435">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="15" />
+      <AdditiveStat statType="Health" value="100" />
+      <AdditiveStat statType="ManaRegen" value="4" />
+    </Stats>
+    <Maps>
+      <Map slug="summoners-rift" />
+      <Map slug="twisted-treeline" />
+    </Maps>
+  </Item>
+  <Item name="Doran's Shield" id="1054" cost="750">
+    <Stats>
+      <AdditiveStat statType="Armor" value="8" />
+      <AdditiveStat statType="Health" value="120" />
+      <AdditiveStat statType="HealthRegen" value="8" />
+    </Stats>
+    <Maps>
+      <Map slug="summoners-rift" />
+      <Map slug="twisted-treeline" />
+    </Maps>
+  </Item>
+  <Item name="Eleisa's Miracle" id="3173" cost="500">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="25" />
+      <AdditiveStat statType="ManaRegen" value="20" />
+      <AdditiveStat statType="Tenacity" value="35" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="philosophers-stone" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Elixir of Agility" id="2038" cost="250" isConsumable="true">
+    <Effects>
+      <Effect>
+        Grants 12-22% attack speed based on champion level and 8% critical strike chance for 4 minutes.
+      </Effect>
+    </Effects>
+    <Maps>
+      <Map slug="summoners-rift" />
+      <Map slug="twisted-treeline" />
+    </Maps>
+  </Item>
+  <Item name="Elixir of Brilliance" id="2039" cost="250" isConsumable="true">
+    <Effects>
+      <Effect>
+        Grants 20-40 ability power based on champion level and reduces cooldowns by 10% for 4 minutes.
+      </Effect>
+    </Effects>
+    <Maps>
+      <Map slug="summoners-rift" />
+      <Map slug="twisted-treeline" />
+    </Maps>
+  </Item>
+  <Item name="Elixir of Fortitude" id="2037" cost="250" isConsumable="true">
+    <Effects>
+      <Effect>
+        Grants 140-235 health based on champion level and 10 attack damage for 4 minutes.
+      </Effect>
+    </Effects>
+    <Maps>
+      <Map slug="summoners-rift" />
+      <Map slug="twisted-treeline" />
+    </Maps>
+  </Item>
+  <Item name="Emblem of Valor" id="3097" cost="350">
+    <Stats>
+      <AdditiveStat statType="Armor" value="25" />
+    </Stats>
+    <Effects>
+      <Effect isAura="true" isUnique="true">
+        Nearby allied champions gain 10 health regen per 5 seconds.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="cloth-armor" />
+      <Item slug="rejuvenation-bead" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Entropy" id="3184" cost="600">
+    <Stats>
+      <AdditiveStat statType="Damage" value="70" />
+      <AdditiveStat statType="Health" value="275" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        25% chance on hit to reduce your target's movement speed by 30% for 2.5 seconds.
+      </Effect>
+      <Effect isActive="true" isUnique="true">
+        Your attacks reduce your target's movement speed by 30% and deal 80 true damage over 2.5 seconds. Lasts 5 seconds. 60 second cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="b-f-sword" />
+      <Item slug="phage" />
+    </BuiltFrom>
+    <Maps>
+      <Map slug="crystal-scar" />
+    </Maps>
+  </Item>
+  <Item name="Executioner's Calling" id="3123" cost="500">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.15" />
+      <AdditiveStat statType="LifeSteal" value="0.18" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        On each hit, you cause 4 damage per second for 8 seconds.
+      </Effect>
+      <Effect isActive="true" isUnique="true">
+        Inflicts target enemy champion with Grevious Wound, causing 50% reduced healing and regeneration for 8 seconds. 20 second cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="brawlers-gloves" />
+      <Item slug="vampiric-scepter" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Faerie Charm" id="1004" cost="180">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="3" />
+    </Stats>
+  </Item>
+  <Item name="Fiendish Codex" id="3108" cost="300">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="30" />
+      <AdditiveStat statType="CooldownReduction" value="0.1" />
+      <AdditiveStat statType="ManaRegen" value="7" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="meki-pendant" />
+      <Item slug="amplifying-tome" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Force of Nature" id="3109" cost="1000">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="40" />
+      <AdditiveStat statType="MagicResistance" value="76" />
+      <MultiplicativeStat statType="MoveSpeed" value="0.08" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Restores 0.35% of your champion's health every second.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="negatron-cloak" />
+      <Item slug="regrowth-pendant" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Frozen Heart" id="3110" cost="800">
+    <Stats>
+      <AdditiveStat statType="Armor" value="99" />
+      <AdditiveStat statType="Mana" value="500" />
+      <AdditiveStat statType="CooldownReduction" value="0.25" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Reduces ability cooldowns by 25%.
+      </Effect>
+      <Effect isAura="true" isUnique="true">
+        Reduces the attack speed of nearby enemies by 20%.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="cloth-armor" />
+      <Item slug="glacial-shroud" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Frozen Mallet" id="3022" cost="825">
+    <Stats>
+      <AdditiveStat statType="Damage" value="20" />
+      <AdditiveStat statType="Health" value="700" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Your attacks reduce your target's movement speed by 40% for 2.5 seconds (30% for ranged attacks).
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="giants-belt" />
+      <Item slug="phage" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Giant's Belt" id="1011" cost="1110">
+    <Stats>
+      <AdditiveStat statType="Health" value="430" />
+    </Stats>
+  </Item>
+  <Item name="Glacial Shroud" id="3024" cost="575">
+    <Stats>
+      <AdditiveStat statType="Armor" value="45" />
+      <AdditiveStat statType="CooldownReduction" value="0.2" />
+      <AdditiveStat statType="Mana" value="425" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="chain-vest" />
+      <Item slug="sapphire-crystal" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Guardian Angel" id="3026" cost="1200">
+    <Stats>
+      <AdditiveStat statType="Armor" value="68" />
+      <AdditiveStat statType="MagicResistance" value="38" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Revives your champion upon death, restoring 750 health and 375 mana. This effect can occur once every 5 minutes.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="chain-vest" />
+      <Item slug="cloth-armor" />
+      <Item slug="null-magic-mantle" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Guinsoo's Rageblade" id="3124" cost="400">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="45" />
+      <AdditiveStat statType="Damage" value="35" />
+    </Stats>
+    <Effects>
+      <Effect>
+        On each attack or spell cast, increases your attack speed by 4% and ability power by 6. Lasts 5 seconds. Stacks up to 8 times.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="blasting-wand" />
+      <Item slug="pickaxe" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Haunting Guise" id="3136" cost="575">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="20" />
+      <AdditiveStat statType="Health" value="180" />
+      <AdditiveStat statType="MagicPenetration" value="20" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="amplifying-tome" />
+      <Item slug="ruby-crystal" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Health Potion" id="2003" cost="35" isConsumable="true">
+    <Effects>
+      <Effect>
+        Restores 150 health over 15 seconds.
+      </Effect>
+    </Effects>
+  </Item>
+  <Item name="Heart of Gold" id="3132" cost="350">
+    <Stats>
+      <AdditiveStat statType="Health" value="200" />
+      <AdditiveStat statType="GoldPer10" value="5" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        The Gold Per 10 aspect of this item is unique.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="ruby-crystal" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Hexdrinker" id="3155" cost="585">
+    <Stats>
+      <AdditiveStat statType="Damage" value="25" />
+      <AdditiveStat statType="MagicResistance" value="30" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        If you would take magic damage which would leave you at less than 30% of your maximum health, you first gain a shield which absorbs 250 magic damage for 3 seconds. 60 second cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="long-sword" />
+      <Item slug="null-magic-mantle" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Hextech Gunblade" id="3146" cost="600">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="70" />
+      <AdditiveStat statType="Damage" value="40" />
+      <AdditiveStat statType="LifeSteal" value="0.15" />
+      <AdditiveStat statType="SpellVamp" value="0.20" />
+    </Stats>
+    <Effects>
+      <Effect isActive="true" isUnique="true">
+        Deals 300 magic damage and slows the target champion by 50% for 3 seconds (700 range). 60 second cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="bilgewater-cutlass" />
+      <Item slug="hextech-revolver" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Hextech Revolver" id="3145" cost="330">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="40" />
+      <AdditiveStat statType="SpellVamp" value="0.12" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="amplifying-tome" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Hextech Sweeper" id="3187" cost="150">
+    <Stats>
+      <Stat statType="AbilityPower" value="40" />
+      <Stat statType="CooldownReduction" value="0.1" />
+      <Stat statType="Health" value="300" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Your magic damage grants vision of your target for 4 seconds.
+      </Effect>
+      <Effect isUnique="true" isActive="true">
+        Covers an area with stealth-detectng mist, granting vision of all units which pass through it for 6 seconds. 60 second cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="amplifying-tome" />
+      <Item slug="amplifying-tome" />
+      <Item slug="kindlegem" />
+    </BuiltFrom>
+    <Maps>
+      <Map slug="crystal-scar" />
+    </Maps>
+  </Item>
+  <Item name="Infinity Edge" id="3031" cost="375">
+    <Stats>
+      <AdditiveStat statType="CriticalChance" value="0.25" />
+      <AdditiveStat statType="CriticalDamage" value="0.5" />
+      <AdditiveStat statType="Damage" value="80" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="b-f-sword" />
+      <Item slug="cloak-of-agility" />
+      <Item slug="pickaxe" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Ionian Boots of Lucidity" id="3158" cost="550">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.15" />
+      <AdditiveStat statType="MoveSpeed" value="70" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="boots-of-speed" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Ionic Spark" id="3178" cost="575">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.45" />
+      <AdditiveStat statType="Health" value="250" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Every fourth attack unleashes a chain lightning, dealing 125 magic damage to up to 4 targets.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="recurve-bow" />
+      <Item slug="ruby-crystal" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Kage's Lucky Pick" id="3098" cost="330">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="25" />
+      <AdditiveStat statType="GoldPer10" value="5" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        The Gold Per 10 aspect of this item is unique.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="amplifying-tome" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Kindlegem" id="3067" cost="375">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.1" />
+      <AdditiveStat statType="Health" value="200" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="ruby-crystal" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Kitae's Bloodrazor" id="3186" cost="700">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.4" />
+      <AdditiveStat statType="Damage" value="30" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Your attacks deal magic damage equal to 2.5% of the target's maximum health.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="pickaxe" />
+      <Item slug="recurve-bow" />
+    </BuiltFrom>
+    <Maps>
+      <Map slug="crystal-scar" />
+    </Maps>
+  </Item>
+  <Item name="Last Whisper" id="3035" cost="700">
+    <Stats>
+      <MultiplicativeStat statType="ArmorPenetration" value="0.4" />
+      <AdditiveStat statType="Damage" value="40" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="long-sword" />
+      <Item slug="pickaxe" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Leviathan" id="3138" cost="800">
+    <Stats>
+      <AdditiveStat statType="Health" value="180" />
+    </Stats>
+    <Effects>
+      Your champion gains 32 health per stack, receiving 2 stacks for a kill or 1 stack for an assist. This effect can stack 20 times. You lose a third of your stacks if you die. At 20 stacks, your champion takes 15% less damage.
+    </Effects>
+    <BuiltFrom>
+      <Item slug="ruby-crystal" />
+    </BuiltFrom>
+    <Maps>
+      <Map slug="summoners-rift" />
+      <Map slug="twisted-treeline" />
+    </Maps>
+  </Item>
+  <Item name="Lich Bane" id="3100" cost="1000">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="80" />
+      <AdditiveStat statType="MagicResistance" value="30" />
+      <AdditiveStat statType="Mana" value="350" />
+      <MultiplicativeStat statType="MoveSpeed" value="0.07" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        After an ability is used, your next physical attack deals an additional 100% of your ability power in damage. This effect has a 2 second cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="blasting-wand" />
+      <Item slug="null-magic-mantle" />
+      <Item slug="sheen" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Locket of the Iron Solari" id="3190" cost="500">
+    <Stats>
+      <AdditiveStat statType="Armor" value="35" />
+      <AdditiveStat statType="Health" value="300" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true" isAura="true">
+        Nearby allied champions gain 15 health regeneration per 5 seconds.
+      </Effect>
+      <Effect isActive="true" isUnique="true">
+        Shield yourself and nearby allies for 5 seconds, absorbing up to 50 (+10 per level) damage. 60 second cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="emblem-of-valor" />
+      <Item slug="heart-of-gold" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Long Sword" id="1036" cost="415">
+    <Stats>
+      <AdditiveStat statType="Damage" value="10" />
+    </Stats>
+  </Item>
+  <Item name="Madred's Bloodrazor" id="3126" cost="775">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.4" />
+      <AdditiveStat statType="Damage" value="40" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        On hit, deals magic damage equal to 4% of the target's maximum health.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="madreds-razors" />
+      <Item slug="pickaxe" />
+      <Item slug="recurve-bow" />
+    </BuiltFrom>
+    <Maps>
+      <Map slug="summoners-rift" />
+      <Map slug="twisted-treeline" />
+    </Maps>
+  </Item>
+  <Item name="Madred's Razors" id="3106" cost="285">
+    <Stats>
+      <AdditiveStat statType="Armor" value="23" />
+      <AdditiveStat statType="Damage" value="15" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        20% chance on attack to deal 300 damage to a minion.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="cloth-armor" />
+      <Item slug="long-sword" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Malady" id="3114" cost="550">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="25" />
+      <AdditiveStat statType="AttackSpeed" value="0.5" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Your physical attacks shred your target, dealing 20 magic damage and lowering their magic resistance by 6. Magic resistance reduction stacks up to 4 times.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="amplifying-tome" />
+      <Item slug="dagger" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Mana Manipulator" id="3037" cost="115">
+    <Effects>
+      <Effect isAura="true" isUnique="true">
+        Restores 7.2 mana per 5 seconds to yourself and nearby friendly champions.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="faerie-charm" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Mana Potion" cost="40" id="2004" isConsumable="true">
+    <Effects>
+      <Effect>
+        Restores 100 mana over 15 seconds.
+      </Effect>
+    </Effects>
+  </Item>
+  <Item name="Manamune" id="3004" cost="700">
+    <Stats>
+      <AdditiveStat statType="Damage" value="20" />
+      <AdditiveStat statType="Mana" value="350" />
+      <AdditiveStat statType="ManaRegen" value="7" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        2% of your max mana is converted to attack damage.
+      </Effect>
+      <Effect isUnique="true">
+        Each time you attack, you gain one maximum mana (3 second cooldown). Each time you use an ability, you gain 4 maximum mana (3 second cooldown). Bonus caps at 1000 mana.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="long-sword" />
+      <Item slug="tear-of-the-goddess" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Maw of Malmortius" id="0" cost="925">
+    <Stats>
+      <AdditiveStat statType="Damage" value="55" />
+      <AdditiveStat statType="MagicResistance" value="36" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Gain +1 attack damage for every 2.5 health missing.
+      </Effect>
+      <Effect isUnique="true">
+        If you would take magic damage which would leave you at less than 30% of your maximum health, you first gain a shield which absorbs up to 400 magic damage for 5 seconds. 60 second cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="hexdrinker" />
+      <Item slug="pickaxe" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Mejai's Soulstealer" id="3041" cost="800">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="20" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Your champion gains 8 ability power per stack, receiving 2 stacks for a kill or 1 stack for an assist. This effect can stack 20 times. You lose a third of your stacks when you die. At 20 stacks, your champion's cooldowns are reduced by 15%.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="amplifying-tome" />
+    </BuiltFrom>
+    <Maps>
+      <Map slug="summoners-rift" />
+      <Map slug="twisted-treeline" />
+    </Maps>
+  </Item>
+  <Item name="Meki Pendant" id="1005" cost="390">
+    <Stats>
+      <AdditiveStat statType="ManaRegen" value="7" />
+    </Stats>
+  </Item>
+  <Item name="Mercury's Treads" id="3111" cost="450">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="25" />
+      <AdditiveStat statType="MoveSpeed" value="70" />
+      <AdditiveStat statType="Tenacity" value="35" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="boots-of-speed" />
+      <Item slug="null-magic-mantle" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Moonflair Spellblade" id="3170" cost="340">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="50" />
+      <AdditiveStat statType="Tenacity" value="35" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="blasting-wand" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Morello's Evil Tome" id="3165" cost="245">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="75" />
+      <AdditiveStat statType="CooldownReduction" value="0.2" />
+      <AdditiveStat statType="ManaRegen" value="12" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="fiendish-codex" />
+      <Item slug="kages-lucky-pick" />
+    </BuiltFrom>
+    <Effects>
+      <Effect isActive="true">
+        Inflicts target enemy champion with Grievous Wounds, causing 50% reduced healing and regeneration for 8 seconds. 20 second cooldown.
+      </Effect>
+    </Effects>
+  </Item>
+  <Item name="Nashor's Tooth" id="3115" cost="350">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="65" />
+      <AdditiveStat statType="AttackSpeed" value="0.5" />
+      <AdditiveStat statType="CooldownReduction" value="0.25" />
+      <AdditiveStat statType="ManaRegen" value="10" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="fiendish-codex" />
+      <Item slug="stinger" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Needlessly Large Rod" id="1058" cost="1600">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="80" />
+    </Stats>    
+  </Item>
+  <Item name="Negatron Cloak" id="1057" cost="740">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="48" />
+    </Stats>
+  </Item>
+  <Item name="Ninja Tabi" id="3047" cost="200">
+    <Stats>
+      <AdditiveStat statType="Armor" value="25" />
+      <AdditiveStat statType="MoveSpeed" value="70" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Reduces the damage taken from non-turret basic attacks by 10%.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="boots-of-speed" />
+      <Item slug="cloth-armor" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Null-Magic Mantle" id="1033" cost="400">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="24" />
+    </Stats>
+  </Item>
+  <Item name="Odyn's Veil" id="3180" cost="650">
+    <Stats>
+      <AdditiveStat statType="Health" value="350" />
+      <AdditiveStat statType="Mana" value="350" />
+      <AdditiveStat statType="MagicResistance" value="50" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Reduces and stores 10% of the magic damage dealt to your champion.
+      </Effect>
+      <Effect isUnique="true" isActive="true">
+        Deals 200 + (stored magic) up to a maximum of 400 magic damage to nearby enemy units. 90 second cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="catalyst-the-protector" />
+      <Item slug="negatron-cloak" />
+    </BuiltFrom>
+    <Maps>
+      <Map slug="crystal-scar" />
+    </Maps>
+  </Item>
+  <Item name="Oracle's Elixir" id="2042" cost="400" isConsumable="true">
+    <Effects>
+      <Effect>
+        Gives your champion stealth detection until they die.
+      </Effect>
+    </Effects>
+    <Maps>
+      <Map slug="summoners-rift" />
+      <Map slug="twisted-treeline" />
+    </Maps>
+  </Item>
+  <Item name="Oracle's Extract" id="2047" cost="250" isConsumable="true">
+    <Effects>
+      <Effect>
+        Gives your champion stealth detection for 5 minutes or until they die.
+      </Effect>
+    </Effects>
+    <Maps>
+      <Map slug="crystal-scar" />
+    </Maps>
+  </Item>
+  <Item name="Phage" id="3044" cost="425">
+    <Stats>
+      <AdditiveStat statType="Damage" value="18" />
+      <AdditiveStat statType="Health" value="225" />
+    </Stats>
+    <Effects>
+      <Effect>
+        25% chance on hit to reduce your target's movement speed by 30% for 2.5 seconds.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="long-sword" />
+      <Item slug="ruby-crystal" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Phantom Dancer" id="3046" cost="400">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.5" />
+      <AdditiveStat statType="CriticalChance" value="0.3" />
+      <MultiplicativeStat statType="MoveSpeed" value="0.15" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="cloak-of-agility" />
+      <Item slug="dagger" />
+      <Item slug="zeal" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Philosopher's Stone" id="3096" cost="185">
+    <Stats>
+      <AdditiveStat statType="GoldPer10" value="5" />
+      <AdditiveStat statType="HealthRegen" value="15" />
+      <AdditiveStat statType="ManaRegen" value="8" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        The Gold Per 10 aspect of this item is unique.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="faerie-charm" />
+      <Item slug="regrowth-pendant" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Pickaxe" id="1037" cost="975">
+    <Stats>
+      <AdditiveStat statType="Damage" value="25" />
+    </Stats>    
+  </Item>
+  <Item name="Prospector's Blade" id="1062" cost="950">
+    <Stats>
+      <AdditiveStat statType="Damage" value="20" />
+      <AdditiveStat statType="Health" value="200" />
+      <AdditiveStat statType="LifeSteal" value="0.05" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Doesn't stack with other Prospector items.
+      </Effect>
+    </Effects>
+    <Maps>
+      <Map slug="crystal-scar" />
+    </Maps>
+  </Item>
+  <Item name="Prospector's Ring" id="1063" cost="950">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="30" />
+      <AdditiveStat statType="Health" value="200" />
+      <AdditiveStat statType="ManaRegen" value="7" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Doesn't stack with other Prospector items.
+      </Effect>
+    </Effects>
+    <Maps>
+      <Map slug="crystal-scar" />
+    </Maps>
+  </Item>
+  <Item name="Quicksilver Sash" id="3140" cost="700">
+    <Stats>
+      <AdditiveStat statType="MagicResistance" value="48" />
+    </Stats>
+    <Effects>
+      <Effect isActive="true" isUnique="true">
+        Removes all debuffs from your character. 90 second cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="negatron-cloak" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Rabadon's Deathcap" id="3089" cost="940">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="140" />
+      <MultiplicativeStat statType="AbilityPower" value="0.3" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="blasting-wand" />
+      <Item slug="needlessly-large-rod" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Randuin's Omen" id="3143" cost="600">
+    <Stats>
+      <AdditiveStat statType="Armor" value="75" />
+      <AdditiveStat statType="CooldownReduction" value="0.08" />
+      <AdditiveStat statType="Health" value="300" />
+      <AdditiveStat statType="HealthRegen" value="25" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        20% chance on being hit to slow the attacker's movement and attack speeds by 35% for 3 seconds.
+      </Effect>
+      <Effect isActive="true" isUnique="true">
+        Slows movement speeds and attack speeds of surrounding units by 35% for 2 seconds + 0.5 seconds for each 100 armor and magic resistance. 60 second cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="cloth-armor" />
+      <Item slug="heart-of-gold" />
+      <Item slug="wardens-mail" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Recurve Bow" id="1043" cost="1050">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.4" />
+    </Stats>
+  </Item>
+  <Item name="Regrowth Pendant" id="1007" cost="435">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="15" />
+    </Stats>
+  </Item>
+  <Item name="Rejuvenation Bead" id="1006" cost="250">
+    <Stats>
+      <AdditiveStat statType="HealthRegen" value="8" />
+    </Stats>
+  </Item>
+  <Item name="Rod of Ages" id="3027" cost="850">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="60" />
+      <AdditiveStat statType="Health" value="450" />
+      <AdditiveStat statType="Mana" value="525" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Restores 250 health and 200 mana upon leveling up over 8 seconds.
+      </Effect>
+      <Effect isUnique="true">
+        Your champion gains 18 health, 20 mana, and 2 ability power every minute. Bonuses cap at 180 health, 200 mana, and 20 ability power.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="blasting-wand" />
+      <Item slug="catalyst-the-protector" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Ruby Crystal" id="1028" cost="475">
+    <Stats>
+      <AdditiveStat statType="Health" value="180" />
+    </Stats>
+  </Item>
+  <Item name="Rylai's Crystal Scepter" id="3116" cost="700">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="80" />
+      <AdditiveStat statType="Health" value="500" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Dealing spell damage slows the target's movement speed by 35% for 1.5 seconds (15% for multi-target and damage-over-time spells).
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="amplifying-tome" />
+      <Item slug="blasting-wand" />
+      <Item slug="giants-belt" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Sanguine Blade" id="3181" cost="800">
+    <Stats>
+      <AdditiveStat statType="Damage" value="60" />
+      <AdditiveStat statType="LifeSteal" value="0.15" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Your attacks grant 5 attack damage and 1% lifesteal for 4 seconds, stacking 7 times.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="b-f-sword" />
+      <Item slug="vampiric-scepter" />
+    </BuiltFrom>
+    <Maps>
+      <Map slug="crystal-scar" />
+    </Maps>
+  </Item>
+  <Item name="Sapphire Crystal" id="1027" cost="400">
+    <Stats>
+      <AdditiveStat statType="Mana" value="200" />
+    </Stats>    
+  </Item>
+  <Item name="Sheen" id="3057" cost="400">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="25" />
+      <AdditiveStat statType="Mana" value="250" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        When an ability is used, your base damage is increased by 100% for your next attack. This effect has a 2 second cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="amplifying-tome" />
+      <Item slug="sapphire-crystal" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Shurelya's Reverie" id="3069" cost="550">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.15" />
+      <AdditiveStat statType="Health" value="330" />
+      <AdditiveStat statType="HealthRegen" value="30" />
+      <AdditiveStat statType="ManaRegen" value="15" />
+    </Stats>
+    <Effects>
+      <Effect isActive="true" isAura="true">
+        Nearby champions gain 40% movement speed for 3 seconds (60 second cooldown).
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="kindlegem" />
+      <Item slug="philosophers-stone" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Sight Ward" id="2044" cost="75" isConsumable="true">
+    <Effects>
+      <Effect>
+        Places an invisible ward that can see invisible enemy units. Lasts 3 minutes.
+      </Effect>
+    </Effects>
+    <Maps>
+      <Map slug="summoners-rift" />
+      <Map slug="twisted-treeline" />
+    </Maps>
+  </Item>
+  <Item name="Sorcerer's Shoes" id="3020" cost="750">
+    <Stats>
+      <AdditiveStat statType="MagicPenetration" value="20" />
+      <AdditiveStat statType="MoveSpeed" value="70" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="boots-of-speed" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Soul Shroud" id="3099" cost="485">
+    <Stats>
+      <AdditiveStat statType="Health" value="520" />
+    </Stats>
+    <Effects>
+      <Effect isAura="true" isUnique="true">
+        Gives nearby champions 12 mana regeneration per 5 seconds and 15% reduced cooldowns.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="kindlegem" />
+      <Item slug="mana-manipulator" />
+      <Item slug="ruby-crystal" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Spirit Visage" id="3065" cost="300">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.12" />
+      <AdditiveStat statType="Health" value="250" />
+      <AdditiveStat statType="MagicResistance" value="30" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Increases healing and regeneration effects on yourself by 20%.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="kindlegem" />
+      <Item slug="null-magic-mantle" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Stinger" id="3101" cost="250">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.4" />
+      <AdditiveStat statType="CooldownReduction" value="0.1" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="dagger" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Sunfire Cape" id="3068" cost="800">
+    <Stats>
+      <AdditiveStat statType="Armor" value="45" />
+      <AdditiveStat statType="Health" value="450" />
+    </Stats>
+    <Effects>
+      <Effect>
+        Deals 40 magic damage per second to nearby enemies.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="chain-vest" />
+      <Item slug="giants-belt" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Sword of the Occult" id="3141" cost="954">
+    <Stats>
+      <AdditiveStat statType="Damage" value="10" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Your champion gains 5 damage per stack, receiving 2 stacks for a kill or 1 stack for an assist. This effect can stack 20 times. You lose a third of your stacks if you die. At 20 stacks, your champion's movement speed is increased 15%.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="long-sword" />
+    </BuiltFrom>
+    <Maps>
+      <Map slug="summoners-rift" />
+      <Map slug="twisted-treeline" />
+    </Maps>
+  </Item>
+  <Item name="Tear of the Goddess" id="3070" cost="205">
+    <Stats>
+      <AdditiveStat statType="Mana" value="350" />
+      <AdditiveStat statType="ManaRegen" value="7" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Each time your champion uses an ability, their maximum mana increases by 4 mana up to a maximum of twice in a six second period. Bonuses cap at 1000 mana.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="meki-pendant" />
+      <Item slug="sapphire-crystal" />
+    </BuiltFrom>
+  </Item>
+  <Item name="The Black Cleaver" id="3071" cost="795">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.3" />
+      <AdditiveStat statType="Damage" value="55" />
+    </Stats>
+    <Effects>
+      <Effect>
+        Your basic attacks reduce your target's armor by 15 for 5 seconds. Stacks up to 3 times.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="b-f-sword" />
+      <Item slug="dagger" />
+    </BuiltFrom>
+  </Item>
+  <Item name="The Bloodthirster" id="3072" cost="900">
+    <Stats>
+      <AdditiveStat statType="Damage" value="60" />
+      <AdditiveStat statType="LifeSteal" value="0.12" />
+    </Stats>
+    <Effects>
+      <Effect>
+        Gain an additional 1 physical damage and 0.2% lifesteal per kill. Maximum of 40 damage and 10% lifesteal. Death removes half of these bonuses.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="b-f-sword" />
+      <Item slug="vampiric-scepter" />
+    </BuiltFrom>
+    <Maps>
+      <Map slug="summoners-rift" />
+      <Map slug="twisted-treeline" />
+    </Maps>
+  </Item>
+  <Item name="The Brutalizer" id="3134" cost="507">
+    <Stats>
+      <AdditiveStat statType="ArmorPenetration" value="15" />
+      <AdditiveStat statType="CooldownReduction" value="0.1" />
+      <AdditiveStat statType="Damage" value="25" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="long-sword" />
+    </BuiltFrom>
+  </Item>
+  <Item name="The Lightbringer" id="3185" cost="285">
+    <Stats>
+      <AdditiveStat statType="Damage" value="20" />
+      <AdditiveStat statType="AttackSpeed" value="0.5" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Your attacks grant vision of your target for 5 seconds.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="recurve-bow" />
+      <Item slug="vampiric-scepter" />
+    </BuiltFrom>
+    <Maps>
+      <Map slug="crystal-scar" />
+    </Maps>
+  </Item>
+  <Item name="Thornmail" id="3075" cost="1000">
+    <Stats>
+      <AdditiveStat statType="Armor" value="100" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        On being hit by standard attacks, returns 30% of the damage taken as magic damage.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="chain-vest" />
+      <Item slug="cloth-armor" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Tiamat" id="3077" cost="250">
+    <Stats>
+      <AdditiveStat statType="Damage" value="42" />
+      <AdditiveStat statType="HealthRegen" value="15" />
+      <AdditiveStat statType="ManaRegen" value="4" />
+    </Stats>
+    <Effects>
+      <Effect>
+        Your attacks splash, dealing physical damage in a small area around the target.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="faerie-charm" />
+      <Item slug="long-sword" />
+      <Item slug="pickaxe" />
+      <Item slug="rejuvenation-bead" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Trinity Force" id="3078" cost="300">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="30" />
+      <AdditiveStat statType="AttackSpeed" value="0.3" />
+      <AdditiveStat statType="CriticalChance" value="0.15" />
+      <AdditiveStat statType="Damage" value="30" />
+      <AdditiveStat statType="Health" value="250" />
+      <AdditiveStat statType="Mana" value="250" />
+      <MultiplicativeStat statType="MoveSpeed" value="0.12" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        25% chance on hit to slow the target by 35% for 2.5 seconds. Your next attack deals bonus damage.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="phage" />
+      <Item slug="sheen" />
+      <Item slug="zeal" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Vampiric Scepter" id="1053" cost="450">
+    <Stats>
+      <AdditiveStat statType="LifeSteal" value="0.10" />
+    </Stats>
+  </Item>
+  <Item name="Vision Ward" id="2043" cost="125" isConsumable="true">
+    <Effects>
+      <Effect>
+        Places an invisible ward that can see invisible enemy units. Lasts 3 minutes.
+      </Effect>
+    </Effects>
+    <Maps>
+      <Map slug="summoners-rift" />
+      <Map slug="twisted-treeline" />
+    </Maps>
+  </Item>
+  <Item name="Void Staff" id="3135" cost="1000">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="70" />
+      <MultiplicativeStat statType="MagicPenetration" value="0.4" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="amplifying-tome" />
+      <Item slug="blasting-wand" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Warden's Mail" id="3082" cost="400">
+    <Stats>
+      <AdditiveStat statType="Armor" value="50" />
+      <AdditiveStat statType="HealthRegen" value="20" />
+    </Stats>
+    <Effects>
+      <Effect>
+        20% chance on being hit to slow the attacker's movement and attack speeds by 35% for 3 seconds.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="chain-vest" />
+      <Item slug="rejuvenation-bead" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Warmog's Armor" id="3083" cost="980">
+    <Stats>
+      <AdditiveStat statType="Health" value="920" />
+      <AdditiveStat statType="HealthRegen" value="30" />
+    </Stats>
+    <Effects>
+      <Effect>
+        Permanently gain 4.5 health and .15 health regen per 5 seconds per minion kill. Champion kills and assists graint 45 health and 1.5 health regen per 5 seconds. Bonuses cap at 450 health and 15 health regen per 5 seconds.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="giants-belt" />
+      <Item slug="regrowth-pendant" />
+      <Item slug="ruby-crystal" />
+    </BuiltFrom>
+    <Maps>
+      <Map slug="summoners-rift" />
+      <Map slug="twisted-treeline" />
+    </Maps>
+  </Item>
+  <Item name="Will of the Ancients" id="3152" cost="440">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="40" />
+    </Stats>
+    <Effects>
+      <Effect isAura="true" isUnique="true">
+        Gives nearby allied champions 30 ability power and 20% spell vamp.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="blasting-wand" />
+      <Item slug="hextech-revolver" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Wit's End" id="3091" cost="550">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.4" />
+      <AdditiveStat statType="MagicResistance" value="30" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        Physical attacks deal an additional 42 magic damage to the target.
+      </Effect>
+      <Effect isUnique="true">
+        On each hit, adds a buff to the user that increases magic resistance by 5. Stacks 4 times.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="null-magic-mantle" />
+      <Item slug="recurve-bow" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Wriggle's Lantern" id="3154" cost="150">
+    <Stats>
+      <AdditiveStat statType="Armor" value="30" />
+      <AdditiveStat statType="Damage" value="23" />
+      <AdditiveStat statType="LifeSteal" value="0.12" />
+    </Stats>
+    <Effects>
+      <Effect isUnique="true">
+        20% chance on attack to deal 425 magic damage to a minion.
+      </Effect>
+      <Effect isActive="true" isUnique="true">
+        Places an invisible ward with 1100 range sight that lasts for 3 minutes. 3 minute cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="madreds-razors" />
+      <Item slug="vampiric-scepter" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Youmuu's Ghostblade" id="3142" cost="600">
+    <Stats>
+      <AdditiveStat statType="ArmorPenetration" value="20" />
+      <AdditiveStat statType="CooldownReduction" value="0.15" />
+      <AdditiveStat statType="CriticalChance" value="0.15" />
+      <AdditiveStat statType="Damage" value="30" />
+    </Stats>
+    <Effects>
+      <Effect isActive="true" isUnique="true">
+        You gain 20% movespeed and 50% attack speed for 4 seconds. Attacking enemy units with melee attacks increases the duration by 2 seconds to a maximum of 8 seconds. 60 second cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="avarice-blade" />
+      <Item slug="the-brutalizer" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Zeal" id="3086" cost="375">
+    <Stats>
+      <AdditiveStat statType="AttackSpeed" value="0.2" />
+      <AdditiveStat statType="CriticalChance" value="0.1" />
+      <MultiplicativeStat statType="MoveSpeed" value="0.08" />
+    </Stats>
+    <BuiltFrom>
+      <Item slug="brawlers-gloves" />
+      <Item slug="dagger" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Zeke's Herald" id="3050" cost="425">
+    <Stats>
+      <AdditiveStat statType="CooldownReduction" value="0.15" />
+      <AdditiveStat statType="Health" value="250" />
+    </Stats>
+    <Effects>
+      <Effect isAura="true" isUnique="true">
+        Nearby allied champions gain +20 attack speed and +12% life steal.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="dagger" />
+      <Item slug="kindlegem" />
+      <Item slug="vampiric-scepter" />
+    </BuiltFrom>
+  </Item>
+  <Item name="Zhonya's Hourglass" id="3157" cost="800">
+    <Stats>
+      <AdditiveStat statType="AbilityPower" value="100" />
+      <MultiplicativeStat statType="AbilityPower" value="0.25" />
+      <AdditiveStat statType="Armor" value="50" />
+    </Stats>
+    <Effects>
+      <Effect isActive="true" isUnique="true">
+        Places your champion into statis for 2 seconds, rendering you invulnerable and untargetable but unable to take any actions. 90 second cooldown.
+      </Effect>
+    </Effects>
+    <BuiltFrom>
+      <Item slug="chain-vest" />
+      <Item slug="needlessly-large-rod" />
+    </BuiltFrom>
+  </Item>
+</Items>

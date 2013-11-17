@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ChangeLog>
+  <Version number="2.5.0 (&quot;Fiora&quot;)">
+    <Change isBig="true">The red tracker is here! Head to the Game News section to see the latest posts from all your favorite Riot employees. Assuming they've posted semi-recently. What? The Imp's not magic, you know.</Change>
+  </Version>
+  <Version number="2.4.0 (&quot;Fiddlesticks&quot;)">
+    <Change isBig="true">A... WELL... TWO... CHAMPIONS APPROACH! Data for Rengar and Syndra has been added.</Change>
+    <Change isBig="true">You can now check on the status of your favorite League of Legends servers from the "Game News" section. Assuming your favorite servers are NA, EUW, EUNE, EUW, PBE, and Tournament. You like those, don't you?</Change>
+    <Change>Updated The Imp with complete data from the last couple of patches. Sorry for the delay on this one. I thought of a lot of awesome excuses to explain why, but I figure anything I put in the changelog just looks whiny. So yeah. Sorry :-( I'll do better next time.</Change>
+    <Change>Added Katarina's new champion spotlight.</Change>
+    <Change>Added new skins - Pool Party Ziggs and Astronautilus.</Change>
+  </Version>
+  <Version number="2.3.4">
+    <Change isBig="true">A... WELL... TWO... CHAMPIONS APPROACH! Data for Zyra and Diana has been added. Sorry this one was so late. And that it didn't have updated patch notes. Oops.</Change>
+  </Version>
+  <Version number="2.3.3">
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Jayce's data has been added. Sorry he's so late. I blame him.</Change>
+    <Change>Added the new summoner spell "Barrier."</Change>
+    <Change>Updated The Imp with data from the Jayce patch.</Change>
+    <Change>Added The Proving Grounds to the list of maps... but you'll never see it because I haven't updated the items yet. Sorry. It's coming.</Change>
+    <Change>Messed with the appearance of the model picker dialog to try (again) to make it more like the OS.</Change>
+  </Version>
+  <Version number="2.3.2">
+    <Change isBig="true">A... WELL... TWO... CHAMPIONS APPROACH! Data for Darius and Draven has been added.</Change>
+    <Change>Added new art for Ashe - her models aren't updated yet, but they should be soon.</Change>
+    <Change>Added the new item: Athene's Unholy Grail.</Change>
+    <Change>Fixed a bug that made the model viewer look like... well, look really ugly... in light theme. SCREW YOU, LIGHT THEME!</Change>
+    <Change>Fixed a bug that caused Fiddlesticks' lore to be cut off.</Change>
+    <Change>Added a missing skin - Hyena Warwick.</Change>
+    <Change>Added new skins: Darkflame Shyvana, Glaive Warrior Pantheon, and Sad Robot Amumu.</Change>
+  </Version>
+  <Version number="2.3.1">
+    <Change isBig="true">A NEW CHAMPION APPROACHES, EVEN THOUGH HE KIND OF ALREADY DID! Varus' complete data has been added.</Change>
+    <Change>Added a missing screenshot for Warlord Shen (and capitalized his name properly. Oops).</Change>
+    <Change>Added new skins: Blackthorn Morgana, Dacian Knight Pantheon, Frostblade Irelia, Gatekeeper Galio, and Rune Wars Renekton.</Change>
+    <Change>Added data from the Spectator Mode patch.</Change>
+  </Version>
+  <Version number="2.3.0 (&quot;Evelynn&quot;)">
+    <Change isBig="true">Ability preview videos are here! Just tap on the screenshot of most abilities to see a hip video of the ability in action, courtesy (and property) of Riot Games.</Change>
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Hecarim's data has been added.</Change>
+    <Change isBig="true">ANOTHER NEW CHAMPION (kind of) APPROACHES! Basic data for Varus has been added, but more will come when he comes out.</Change>
+    <Change>Cleaned up the formatting for the "Scales with" field on the ability details screen.</Change>
+    <Change>Fixed a bug that caused the on-screen keyboard to appear when a summoner spell was selected on the build editor screen.</Change>
+    <Change>Added several missing ability screenshots. Gragas deserved better.</Change>
+    <Change>Added new skins: Battle Bunny Riven, Fisherman Fizz, and Warlord Shen.</Change>
+    <Change>Added a missing skin: Arctic Ops Kennen.</Change>
+    <Change>Renamed "Fossil Kog'Maw" to the official name ("Jurassic Kog'Maw").</Change>
+    <Change>Corrected the stats of the Black Cleaver. Oops.</Change>
+  </Version>
+  <Version number="2.2.1">
+    <Change>A NEW CHAMPION APPROACHES! Lulu's data has been added.</Change>
+    <Change>Added Fiora's missing screenshots. In the words of the immortal Tracy Jordan: "My bad, that's on me."</Change>
+    <Change>Added new skins: Fossil Kog'maw and Mafia Graves (names not official).</Change>
+    <Change>Updated The Imp with new data from the Lulu patch.</Change>
+    <Change>Added a new item: Maw of Malmortius.</Change>
+    <Change>Added missing item IDs for several items. This means less random explosions if you happen to save a build with one of the affected items.</Change>
+    <Change>Changed the color of the description text on the ability details page to be less... horrible.</Change>
+    <Change>Fixed some spacing issues on the item detail page.</Change>
+  </Version>
+  <Version number="2.2.0 (&quot;Dr. Mundo&quot;)">
+    <Change isBig="true">Champion ability pages now show what stat the ability scales with (ability power, attack damage, bonus health, etc.) and the ratio of scaling. So if you go AP Riven, it's not The Imp's fault, got it?</Change>
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Fiora's data has been added.</Change>
+    <Change>Changed the "Super Teemo" skin to its correct name (previously "Superhero Teemo"). Because "Super Teemo" is way cuter and technically more correct.</Change>
+    <Change>Added new skins: Battlecast Urgot, Bladecraft Orianna, Dark Crystal Ryze, and Vandal Gragas.</Change>
+    <Change>The champion rotation now displays the season as well as the week and date. I just felt like it.</Change>
+    <Change>The sale page now only shows the month and day of the sales (rather than the month, day, and year). You guys know what year it is, right?</Change>
+    <Change>Reduced the IP prices of Irelia and Miss Fortune.</Change>
+  </Version>
+  <Version number="2.1.1">
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Nautlius' data has been added.</Change>
+    <Change isBig="true">Deprecated the old and broke way of storing data on my Amazon server and replaced it with the new hotness way of doing the same thing. Bottom line: If you're using a version of The Imp older than 2.1.0 as of the 2.1.1 update, a) Y U NO UPDATE???; and b) Your champion quotations, rotation, and sale data will no longer load. Sorry :-( It's for the best, I promise!</Change>
+    <Change>Updated The Imp with data from the Nautilus patch.</Change>
+    <Change>Did some layout rejiggering on the Item Detail page.</Change>
+    <Change>Fixed a bug that would cause the app to crash if you attempted to view a model that isn't available.</Change>
+    <Change>Added a new skin: Iron Solari Leona. HOWEVER... there seems to be something different about her model file that I don't totally get. For some reason, I can't convert it to the right format correctly. I'll get back to you on that.</Change>
+    <Change>Added a missing skin: Sandstorm Katarina. Thanks, Helpful User Whose Name I Won't Disclose for Privacy Reasons!</Change>
+    <Change>Fixed some bogus numbers that appeared on all Endurance runes.</Change>
+    <Change>Removed some erroneous Zilean quotes.</Change>
+  </Version>
+  <Version number="2.1.0 (&quot;Corki&quot;)">
+    <Change isBig="true">AT LAST - NEW DEVELOPMENT! The Imp's "in the store" section just got a bit more awesome. Now, when tapping on a skin, instead of seeing one of my terrible screenshots, you'll be taken to a new screen where you can actually view, rotate, and zoom the model, straight from the game files! Pro tip: you can do the same thing with the champion's base skin by tapping on his/her/its price. Is that fun or what?</Change>
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Ziggs' complete data has been added. Special thanks to Smallfry310 for screenshots.</Change>
+    <Change isBig="true">Push notifications about sales will now deep link you into the sales page. 'Cause that just makes sense.</Change>
+    <Change>Added some mega-performance-optimizations that affects all grouped lists in the app. I'm a little embarrassed about long that took. Don't judge me... plz??</Change>
+    <Change>FINALLY fixed the stupid bug that broke the Twitter feed in the "About" section.</Change>
+    <Change>Fixed a bug that caused the screen to stay black if you resumed the app on the Build Detail screen.</Change>
+    <Change>Added new items: Locket of the Iron Solari and Zeke's Herald. Removed Stark's Fervor.</Change>
+    <Change>Updated the stats of Emblem of Valor.</Change>
+    <Change>Updated Morgana so that her passive spell vamp is taken into account when viewing build stats.</Change>
+    <Change>Updated The Imp with data from the Ziggs patch.</Change>
+    <Change>Added Ahri's missing champion spotlight. Oops.</Change>
+    <Change>Added Jax's champion spotlight.</Change>
+    <Change>Updated Sivir's spotlight to the new one.</Change>
+    <Change>Added a missing skin: Frost Queen Janna. The poor chick only has 3; we can't afford to miss any of 'em.</Change>
+    <Change>Added some of Shyvana's missing stats. Thanks, Helpful User Whose Name I Won't Disclose for Privacy Reasons!</Change>
+    <Change>Finally got around to adding the new summoner spell icons. My bad.</Change>
+    <Change>Added some missing runes. Oops again.</Change>
+    <Change>Added several missing item codes for the build email feature.</Change>
+  </Version>
+  <Version number="2.0.7">
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Sejuani's data has been added.</Change>
+    <Change>Added new skins for Lunar Revel: Dragon Fist Lee Sin, Dragonblade Talon, Guqin Sona, and Jade Dragon Wukong.</Change>
+    <Change>Updated The Imp with data from the Sejuani patch.</Change>
+    <Change>Updated Viktor's stats with the changes from the Lunar Revel patch.</Change>
+  </Version>
+  <Version number="2.0.6">
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Viktor's data has been added.</Change>
+    <Change>Added new skins: Arctic Ops Kennen, Sandstorm Katarina, and Superb Villain Veigar.</Change>
+  </Version>
+  <Version number="2.0.5">
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Ahri's data has been added.</Change>
+    <Change>Added Volibear's missing quotations. My bad.</Change>
+    <Change>Added new skins: Frost Queen Janna and Hyena Warwick.</Change>
+    <Change>Added the snowdown showdown skins: Festive Maokai, Mistletoe Leblanc, Snowmerdinger, and Toy Soldier Gangplank.</Change>
+    <Change>Added a missing skin: Executioner Mundo. Mundo's skin gets lost as it pleases.</Change>
+    <Change>Added new champion spotlights for Cho'Gath and Gangplank.</Change>
+  </Version>
+  <Version number="2.0.4">
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Volibear's data has been added.</Change>
+    <Change>Updated The Imp with data from the Volibear patch.</Change>
+    <Change>Updated Gangplank's splash art and wallpaper.</Change>
+    <Change>Added new skins - Blood Lord Vladimir, Imperial Lux, and Silverfang Akali.</Change>
+    <Change>Updated Warmog's Armor to correctly indicate that it isn't available on the Crystal Scar.</Change>
+  </Version>
+  <Version number="2.0.3">
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Fizz's data has been added.</Change>
+    <Change isBig="true">Removed the summoner spells Fortify and Rally - if you had any builds that used these spells, they'll no longer be part of the build. Sorry :-( Talk to Riot, not me.</Change>
+    <Change isBig="true">Added the new summoner spell Surge. SURGE!!!! Like that weird energy drink/soda that Coke used to make. Remember that?</Change>
+    <Change isBig="true">Updated the masteries to the new season 2 trees. Unfortunately, any builds that relied on the old masteries will no longer have an associated mastery page. There's just no way to migrate them since the masteries are so different now. Sorry. Hate mail welcome!</Change>
+    <Change>Updated The Imp with data from the Fizz patch.</Change>
+    <Change>Added new skins: Amethyst Ashe, Musketeer Twisted Fate, and Temple Jax.</Change>
+    <Change>Added a screenshot and pricing data for Asylum Shaco.</Change>
+    <Change>Added Shaco's champion spotlight.</Change>
+  </Version>
+  <Version number="2.0.2">
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Shyvana's data has been added.</Change>
+    <Change>Fixed a possible bug that could occur when resuming the app on the rune page editor screen.</Change>
+    <Change>Updated The Imp with data from the Shyvana patch.</Change>
+    <Change>Lowered Karthus' and Twitch's IP prices.</Change>
+    <Change>Updated some of Kayle's ability data.</Change>
+    <Change>Added Fiddlesticks' new champion spotlight and his Surprise Party skin.</Change>
+    <Change>Added new skins from the Shyvana patch: Asylum Shaco, Jurassic Cho'Gath, Mafia Miss Fortune, and Pulsefire Ezreal.</Change>
+    <Change>Added a missing skin - Commando Lux.</Change>
+  </Version>
+  <Version number="2.0.1">
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Graves' data has been added.</Change>
+    <Change>Added Teemo's new champion spotlight.</Change>
+    <Change>Added new skins: Infiltrator Irelia and Superhero Teemo.</Change>
+    <Change>Added skins from the Harrowing: Bewitching Nidalee, Definitely Not Blitzcrank, FrankenTibbers Annie, and Haunting Nocturne.</Change>
+    <Change>Updated Xerath's skins to their remade versions.</Change>
+    <Change>Updated Blitzcrank's "Boom Boom" skin to the correct price.</Change>
+    <Change>Updated The Imp with info from the Graves patch.</Change>
+    <Change>Fixed a bug that could cause the app to crash when navigating backward from the Timers page.</Change>
+    <Change>Added a temporary workaround for an issue that caused the app to crash when attempting to view a champion spotlight - still looking for a better way. Sorry for the inconvenience :-(</Change>
+  </Version>
+  <Version number="2.0.0 (&quot;Cho'Gath&quot;)">
+    <Change isBig="true">We're on 2.0.0! Mango has come down from Microsoft on high to grace our phones with its presence, and The Imp is excited about it. Lots of new features incoming!</Change>
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Xerath's complete data has been added.</Change>
+    <Change isBig="true">Builds and champions are now pinnable! You can use the app bar to pin your favorite builds or champions to your Start screen for one-tap access to it. Hope it comes in handy!</Change>
+    <Change isBig="true">The Imp is now compatible with fast-app switching - it'll try to retain its state when you navigate away from it, making it start back up more quickly when you use multitasking to switch back to it. Yayyyyy MANGO!</Change>
+    <Change>Added several performance improvements now possible with Mango.</Change>
+    <Change>Fixed a bug that could affect Mango users using the task manager to switch back to The Imp from another app.</Change>
+    <Change>The application icon for The Imp now has a transparent background so it'll reflect your theme color better. You can no longer say The Imp is insensitive to your choices. Mostly.</Change>
+    <Change>Updated a bunch of items to correctly indicate that they aren't available on Crystal Scar.</Change>
+    <Change>Updated Anivia, Blitzcrank, and Corki with their new IP price.</Change>
+  </Version>
+  <Version number="1.10.0 (&quot;Cassiopeia&quot;)">
+    <Change isBig="true">JUNGLE TIMERS ARE IN THE HOUSE! At long last, The Imp goes even further to help you in battle by allowing you to keep track of the respawn times on Baron, Dragon, the buffs, and even sight and vision wards! This is just a first pass, so let me know what you think. Currently, your lock screen will be disabled while you're on the Timers page - I'll look into letting them run under the lock screen in a future version.</Change>
+    <Change>Reorganized the landing page and separated things you browse from "tools" like the mastery page editor, the build editor, and the rune page editor.</Change>
+    <Change>Changed a bit about how builds and runes work on the landing page. Clicking on the "builds" or "runes" buttons now takes you to the new landing screens for each which show all your builds and rune pages, respectively (similar to the mastery templates screen). Hopefully this helps differentiate things that are browsable (like champions, items, etc.) from things that you create (like rune pages, mastery pages, and so on). If not, well - hey, I never said I was good at this. This also lets you create builds wtihout having to go to the champion page to start, so that's... something, right?</Change>
+    <Change>Champion stats ranks are now displayed as bars rather than numerical values. The numerical values were kind of misleading since ties made some champions look better (or worse) than they really were, so I'm using an estimate based on the standard deviation of all champions instead. This way, the approximately same information is communicated but is more precise about how good a champion is in relation to others with respect to an individual stat.</Change>
+    <Change>Abilities that passively grant stat bonuses (like Akali's Twin Disciplines and Zilean's Heightened Learning) are now taken into account on the "stats" screen in the build viewer. Finally, right? Hey, be nice. It's harder than it looks. Probably.</Change>
+    <Change>"Mastery Templates" are now called "Mastery Pages" as they are in-game. This was actually because The Imp's mastery templates actually predated mastery pages in League of Legends. Jus' sayin'.</Change>
+    <Change>Fixed a - GASP - GRAMMATICAL ERROR that could occur on the landing pages of champions whose names start with vowels. *Shudder*.</Change>
+    <Change>Made a few minor UI tweaks to the champion landing page and the mastery template editor for visual consistency.</Change>
+    <Change>Fixed a bug that caused the displayed values for certain champion stats (health regen and mana regen, specifically) to be shown with incorrect values on the champion landing page.</Change>
+    <Change>Manaless champions no longer display information about their mana and mana regen on their landing page. Yeah, that made sense.</Change>
+    <Change>Fixed a bug that made Malice runes appear to be a per-level boost to critical chance (as opposed to a flat bonus, which is what they really are).</Change>
+    <Change>Added a "done" button to the new filters in the browser dialog to give you another way to dismiss the filters when you're done. You can also hit the "back" key to dismiss the filters if you're more into hardware buttons.</Change>
+    <Change>Updated some of Riven's numbers in response to the 9/20 game hotfix.</Change>
+    <Change>Added screenshots for Riven's skins.</Change>
+    <Change>Added a screenshot for Kayle's "Judgment" skin, courtesy of my Chief Content Consultant Smallfry310.</Change>
+    <Change>Added pricing data for the new Kog'maw, Malzahar, Singed, and Xin Zhao skins (Deep Sea, Overlord, Mad Scientist, and Winged Hussar, respectively).</Change>
+    <Change>Added Singed's fancy new champion spotlight.</Change>
+  </Version>
+  <Version number="1.9.1">
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Riven's basic data has been added. Riven's another Xypherous champ, and jeez, am I becoming a fanboy.</Change>
+    <Change>Fixed a massive, sky-high error that was happening for some people on application launch. Yeah, that's me accidentally building with the Mango dev tools instead of the NoDo ones. Good job, Jammer! Sorry for any inconvenience. Still love me?</Change>
+    <Change>Updated The Imp with data from the Riven patch, including new skins for Kog'Maw, Malzahar, and Singed.</Change>
+    <Change>Fixed a usability issue with the "in the store" screen.</Change>
+    <Change>Added Corki's brand-new champion spotlight.</Change>
+    <Change>Made some minor visual tweaks to the browser dialog to make it less lame, particularly in light theme. I hate light theme, I really do.</Change>
+    <Change>Updated Garen's and Poppy's IP prices. Price drop, wut wut?</Change>
+    <Change>Updated Trundle's splash art to the correct one from his classic skin.</Change>
+    <Change>Updated the summoner spells and items with new data from the Dominion website.</Change>
+    <Change>Fixed a few minor display bugs with the new filtering dialogs.</Change>
+  </Version>
+  <Version number="1.9.0 (&quot;Caitlyn&quot;)">
+    <Change isBig="true">Warning: This patch is huge. I had some free time this time around :-)</Change>
+    <Change isBig="true">FILTERS ARE HERE! You can now search for champions, items, and runes that meet specific criteria. This feature should have been there like YEARS ago, but it's a long whiny story. Anyway, it's here now. Enjoy!</Change>
+    <Change isBig="true">I don't know how many of you will use this, but you can now use the emails sent from the build screen to customize your IN-GAME recommended items! Just email the build to yourself and follow the new instructions at the bottom to try it. This feature is brought to you by mostly me but a little bit Brackhar of Riot Games, who was kind enough to post the API hook on the forums. He says patching won't overwrite your items, so that's cool.</Change>
+    <Change>The list of sales in the Game News section now displays the price of the items on sale rather than inane information that you don't care about. Everyone knows Rammus is The Armordillo.</Change>
+    <Change>Fixed a bunch of UI bugs, like the rotation champions being highlighted WHEREVER you see them. They should only be highlighted in the champion browser now.</Change>
+    <Change>Added some more performance optimizations. I swear, if I could figure out how to do these kinds of things the first time around, I'd throw myself a parade.</Change>
+    <Change>Modified the way navigation works on the Item Detail page - hitting the back button now takes you back to the last item you viewed rather than away from the screen altogether. I actually had to work to get that NOT to behave the way it will now at some point, so I'm not sure why I did that. Go me!</Change>
+    <Change>Updated the layout of the Item Details page to separate information more clearly. Also, select items now have screenshots (like Aegis of the Legion) so you can see the visual effect each item provides. Obviously, items like Long Sword will never have screenshots, because they would look like Rammus just standing there.</Change>
+    <Change>Updated the mastery perks to include new Dominion data. Spatial Accuracy now also decreases your Promote cooldown by 30 seconds, and Reinforce now affects Garrison as well as Fortify.</Change>
+    <Change>Cleaned up the quality of some of the item icons.</Change>
+    <Change>Reordered the items in the "more" section of the champion landing page. I figure more people care about the store than any of the other items, right?</Change>
+    <Change>The summoner spell browser no longer presents the summoner spells as an indexed list that allows you to jump to spells that start with a specific letter. There are so fewer of them, I feel like it's more appropriate to just list them all out - wouldn't you say?</Change>
+    <Change>The build browser now will only present the list of builds in an indexed fashion if you've created more than 30 of them.</Change>
+    <Change>The little detail text shown beneath builds in the build browser will now just say "[name of champion] build". It's not like you can remember much about the build from just the first couple of items like it is now, am I right?</Change>
+    <Change>Added the rest of the audio for the champion quotations. While time tick-ticks... away. God, I love Orianna.</Change>
+    <Change>Corrected a bug that made Odyn's Veil look like it wasn't built from any other items (yeah, I wish) and was available on all maps. (Hint: It's not.)</Change>
+    <Change>Added a screenshot and price data for the new Pentakill Karthus skin. That's the lead singer, so only the drummer is left - who'll it be? Olaf? Trundle?</Change>
+  </Version>
+  <Version number="1.8.0 (&quot;Brand&quot;)">
+    <Change isBig="true">Huge giant nerds rejoice! You can now read each champion's voiceover lines by tapping "quotations" on their landing page. As a special added bonus, you can also HEAR the lines from most champions. I'm looking into ways of getting data for the missing ones (the most recent I have is Rumble), so this feature is still being born. Hopefully someone will enjoy it. You'll need access to the internet the first time you listen to a champion's quotations, and after that the data will be stored on your phone. Enjoy!</Change>
+    <Change isBig="true">Lorehounds rejoice! All judgments that are currently available have been added to The Imp. I know not everybody's into that, but it was comparatively painless to add and will hopefully make someone happy, so... there you go. I'm a people-pleaser. What can I say?</Change>
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Talon's basic data has been added.</Change>
+    <Change isBig="true">Added new items for DOMINION! Their stats, costs, and recipes are subject to change, but this is what we've got for now. Additional, each item's detail page will now state which maps it's available on. You can also tap on the maps to see a basic summary of them. I'm not thrilled with it, but maybe it'll be nice to know for someone.</Change>
+    <Change>Modified the Veteran's Scars mastery perk to grant only 12 health per point (down from 15). When did that change?</Change>
+    <Change>Added data for new skins - Demolisher Nunu, Dragonslayer Vayne, Pax Sivir, Reverse Annie, and Victorious Jarvan IV.</Change>
+    <Change>The Item Detail page has been redesigned to be more consistent with the rest of the app. I really don't know what I was thinking the first time around. Oh well. Live and learn, right?</Change>
+    <Change>Fixed some usability issues with the Twitter feed - links now link, mentions now mention, and hashtags now hash. Now that's UX. Yeah baby.</Change>
+    <Change>Replaced the placeholder item icon on the build screen with the one from the game. 'Cuz that's how pro (read: plagiaristic) I be.</Change>
+    <Change>Fixed an issue with Obsidian Malphite'e screenshot.</Change>
+    <Change>Fixed an issue that made the FAQs unreadable. Muhbad.</Change>
+  </Version>
+  <Version number="1.7.1">
+    <Change>Fixed a few bugs with the ability path thing, and the build summary screen will now helpfully tell you if your build has no items or ability path (as opposed to staring at you like you just ordered a steak at McDonald's).</Change>
+    <Change>Added complete data for Skarner, including skreenshots (see what I did there?). Also added screenshots for Yorick and Wukong, but I don't have any terrible puns on their names.</Change>
+    <Change>Added Blitzcrank's fancy new spotlight.</Change>
+    <Change>Added new skins: Obsidian Malphite and Vagabond Garen.</Change>
+  </Version>
+  <Version number="1.7.0 (&quot;Blitzcrank&quot;)">
+    <Change isBig="true">You can now - FINALLY - save your ability order with your builds. They'll show up in build emails and summaries too. Go nuts and let me know how badly you hate it. Ready? GO!</Change>
+    <Change>Updated some look and feel things.</Change>
+    <Change>Updated Eve's splash art - I was still using the old stuff. Again. How many times is this going to happen?</Change>
+  </Version>
+  <Version number="1.6.2">
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Data for Skarner and Wukong has been added, along with their skins. Screenshots for abilities coming next patch. Sorry this is so late :-( Long story.</Change>
+    <Change>Updated prices of price-dropped champions - Annie, Cho, and Taric.</Change>
+    <Change>Added fancy new champion spotlights for Kayle and Tryndamere. Love those new models - don't you?</Change>
+    <Change>Added a whole crapload of new skins, including some mined from this patch that aren't available yet.</Change>
+    <Change>Fixed a localization issue that caused the date of the champion rotation to presented in the wrong format for some European users.</Change>
+    <Change>Added some data from the 1.0.0.122 and 1.0.0.123 patches to the game.</Change>
+    <Change>Fixed a bunch of small UI bugs (probably).</Change>
+  </Version>
+  <Version number="1.6.1">
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Leona's semi-complete data has been added, along with her two skins.</Change>
+    <Change>Added new skins - Baron von Veigar, Buccaneer Tristana, Harbinger Kassadin, and Ravager Nocturne.</Change>
+    <Change>Temporarily removed the background on the landing page due to memory issues. It'll be back soon, I swear.</Change>
+    <Change>Added a screenshot for Heimerdinger's "Alien Invader" skin.</Change>
+    <Change>Fixed a bunch of minor UI annoyances - nothing exciting.</Change>
+    <Change>Fixed a bug that caused Nocturne's "Frozen Terror" skin to be unviewable.</Change>
+    <Change>Fixed a bug that could cause massive, sky-high errors when attempting to a view a champion's "in the store" page if you didn't have access to a wireless network or 3G. I think so, anyway - let me know if it still happens to you.</Change>
+  </Version>
+  <Version number="1.6.0 (&quot;Ashe&quot;)">
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Yorick's basic data has been added, along with his two skins.</Change>
+    <Change isBig="true">The ability detail screen now show's each ability's cooldown and the type of damage it deals, if applicable. No more finding out that Urgot's Acid Hunter deals physical damage after building three Force of Natures... like I did that one time.</Change>
+    <Change>Modified the browser dialog to look a little more like the "people" hub in the operating system. Cuz Microsoft knows what they're doing sometimes.</Change>
+    <Change>Added basic data for new skins from the patch: Buccaneer Tristana and Baron von Veigar.</Change>
+    <Change>Updated Morgana's splash art to the new stuff from the patch.</Change>
+    <Change>Updated Ashe's background to her semi-newish splash. How'd I miss that one?</Change>
+    <Change>Updated Tryndamere's background to his correct splash. For some reason I was using the "Highland" one instead (N00B!)</Change>
+    <Change>Updated several items and abilities based on the patch notes from version 1.0.0.120 of League of Legends. The rest of the changes are coming soon.</Change>
+    <Change>Fixed a bug that made the timestamps on tweets in the Twitter feed look all wonky. Bad job, Jammer.</Change>
+    <Change>Fixed a bug that caused your recently-viewed stuff to disappear if you looked at any items and then exited the app. Muh bad.</Change>
+    <Change>Fixed some display bugs that could cause abilities to be listed as having "melee" range when they really don't have any range at all (like Zilean's "Heightened Learning").</Change>
+    <Change>Fixed a bug that caused the mastery template calculator not to correctly indicate when a mastery perk has been maxed out.</Change>
+  </Version>
+  <Version number="1.5.0 (&quot;Annie&quot;)">
+    <Change isBig="true">Push notifications are in the house! If you want, you can receive a push notification compliments of The Imp when a new champion rotation is posted or a sale is announced. THE FIRST TIME YOU START THE APP ONLY, you'll be prompted to indicate whether or not you want the notifications. If you change your mind later, visit "settings" from the landing page. Disclaimer: this is my first-ever attempt at push notifications, so apologies if it doesn't go super-smoothly. We'll get it figured out :-)</Change>
+    <Change>The "game news" section will now allow itself to be updated more regularly now that I know it's not going to cost me a bajillion dollars :-)</Change>
+    <Change>Squashed a bug that caused The Imp to incorrectly detect button clicks when you probably didn't mean to click them. Kudos to MadUkranian for his help on that.</Change>
+    <Change>The "more" section of the landing page has been rejiggered yet again. That's pretty much an every-patch thing now, isn't it? The "delete stuff" menu is now in the "settings" item.</Change>
+    <Change>Added the new Bloodmoon skins for Shen and Akali.</Change>
+    <Change>Added a better screenshot for Maokai's "Totemic" skin.</Change>
+    <Change>Changed the order of the items in the "more" menu on the landing page to be less silly.</Change>
+    <Change>Fixed a bug that made the Twitter feed erratic at best. I'm actually using the right API now, so that's... something. Yay me?</Change>
+    <Change>Fixed a bug that caused the UI to freeze up when new game news data was being downloaded.</Change>
+    <Change>Fixed a bug that prevented Maokai's IP cost from showing up correctly.</Change>
+    <Change>Fixed a bug that prevented the icon and screenshot for Zilean's "Chronoshift" ability from appearing.</Change>
+    <Change>The changelog will now only show notes from the last five patches. Y'all don't care about that ancient history, do you?</Change>
+    <Change>The default subject line of the error report email has been revised to include the version number.</Change>
+  </Version>
+  <Version number="1.4.1">
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Orianna's basic data has been added, along with her two skins.</Change>
+    <Change>Updated the app with data from the 1.0.0.118b patch to League of Legends. (Moonflair Spellblade is cheaper now, woot woot!)</Change>
+    <Change>Detailed stat ranking data and official ability descriptions have been added for Rumble and Vayne.</Change>
+    <Change>Updated splash art for Kassadin, Taric, and Twisted Fate and Vindicator Vayne's portrait. Also finally gave Taric his fancy new wallpaper.</Change>
+    <Change>Fixed some spacing issues on the Game News page.</Change>
+    <Change>Fixed a bug that caused the Item Detail page to fail to reset its vertical scroll position when a new item is selected.</Change>
+    <Change>Fixed a bug that caused the animated buttons on the landing page to fail to stagger their animations on the first transition.</Change>
+    <Change>Fixed a bug that caused your recently-viewed items not to correctly save themselves in some cases.</Change>
+    <Change>Fixed a bug that caused Twisted Fate's "The Magnificent Twisted Fate" skin to fail to display its screenshot correctly.</Change>
+    <Change>Fixed a bug that caused Dr. Mundo's "Mundo Mundo" skin to cause display bugs when flipping its tile.</Change>
+  </Version>
+  <Version number="1.4.0 (&quot;Anivia&quot;)">
+    <Change isBig="true">The Imp is now a tiny little bit cloud-aware. The "Game News" section has been added to the "more" portion of the homepage, and you can go there to see LIVE updates about the current champion rotation and any sales that are going on. Champions will also be highlighted in the champion picker if they're in the rotation. I know it's not much, but trust me, this is the start of some good stuff for The Imp.</Change>
+    <Change>The displayed prices of skins and champions will be adjusted if they're on sale (and they'll, you know, say "on sale").</Change>
+    <Change>Added the new Tenacity items: Cloak and Dagger, Eleisa's Miracle, and Moonflair Spellblade.</Change>
+    <Change>The "support stuff" and "news" menu items that were available in the "more" section of the landing page have been rolled into a new "about the app" section.</Change>
+    <Change>The link to the official League site has been removed from the home page. You guys are totally capable of typing leagueoflegends.com into a browser without The Imp's help, right?</Change>
+    <Change>Reorganized the build details page to group stats by offense and defense (rather than physical and magical). I think it makes more sense this way, don't you?</Change>
+    <Change>Added Tenacity, Gold Per 10, and Spell Vamp to the build detail screen and build email thingy.</Change>
+    <Change>Corrected the mana cost of Vayne's "Final Hour" ability.</Change>
+    <Change>Added a new screenshot for the incomparable Ninja Rammus ('cause he's my dog). High Noon Twisted Fate too, but he ain't my bro like Rammus is, so he gets the stock Riot screenshot. What? I'm not made of RP.</Change>
+    <Change>Fixed a bug that caused champions to be alphabetized incorrectly in some cases.</Change>
+    <Change>Fixed a bug that prevented some Soraka's and Twisted Fate's skins from appearing correctly.</Change>
+    <Change>Fixed a bug that would cause The Imp to spaz out if you tried to read the Twitter feed with no internetz.</Change>
+    <Change>Updated the FAQs to be a little more current.</Change>
+    <Change>Cleaned up some ugly font crap on a couple of the pages.</Change>
+  </Version>
+  <Version number="1.3.1">
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Vayne's basic data has been added.</Change>
+    <Change>When viewing the screenshot for a skin in the "in the store" section, the name and price of the skin are now hidden when the screenshot is visible - I think it just makes it easier to see the screenshot, especially given how small they are. Let me know if you hate it.</Change>
+    <Change>Changed Annie's, Sivir's, and Taric's landing page backgrounds to the updated splash art from like 70 patches ago. My bad.</Change>
+    <Change>Changed LeBlanc's landing page background to the correct image.</Change>
+    <Change>Added a missing screenshot for Ryze's Arcane Mastery ability.</Change>
+    <Change>Added a better screenshot for LeBlanc's "Prestigious" skin.</Change>
+    <Change>Fixed a bug that caused CDR runes to show their values as negative rather than positive as intended.</Change>
+    <Change>Fixed a bug that could cause the Build Editor screen to get confused and start overwriting items with other items when you changed your selections. It was being stupid. It's not now.</Change>
+    <Change>Fixed a bug that allowed you to drag the level slider on the Build Detail page down to zero and then stopped you from dragging it back up to 18 when you did so.</Change>
+    <Change>Fixed a bug that prevented Kitty Cat Katarina's skin portrait from appearing.</Change>
+    <Change>Fixed a bug that prevent Udyr's skin portraits from appearing.</Change>
+  </Version>
+  <Version number="1.3.0 (&quot;Amumu&quot;)">
+    <Change isBig="true">The all-new "in the store" section is available on each champion's landing page. You can use it to check out each champion's IP/RP cost and what skins are available for him/her/it, complete with screenshots!</Change>
+    <Change isBig="true">If a champion has a spotlight video available, a link to it will be available on their landing page.</Change>
+    <Change isBig="true">Champion wallpapers of approximately appropriate WP7 size are now available on each champion landing page. All images are the intellectual property of Riot Games. But they look mighty fancy on your phone. </Change>
+    <Change isBig="true">By popular demand (and by popular demand, I mean I demanded it myself), The Imp is now sporting a new icon. Still not great, but at least this one wasn't drawn in Paint.</Change>
+    <Change isBig="true">A NEW CHAMPION APPROACHES! Rumble's data and screenshots have been added.</Change>
+    <Change>The accommodate the new "in the store", "spotlight video", and "wallpaper" links and to increase rhyming in The Imp, these new items, along with the "lore" link, have been condensed into a "more" section on the champion landing page.</Change>
+    <Change>On the Item Details page, both the item's total cost and its combine cost will be displayed.</Change>
+    <Change>Resolved an issue that caused some champions' titles to be capitalized incorrectly.</Change>
+    <Change>Resolved an issue that could cause some items to fail to correctly show which items they build into.</Change>
+    <Change>Fixed an issue that made the FAQ page stupidly hard to use.</Change>
+    <Change>Updated champion and item stats with some of the data from the 1.0.0.116 patch.</Change>
+    <Change>Added several screenshots for missing abilities (mostly passives).</Change>
+    <Change>Several UI tweaks for increased performance and usability.</Change>
+  </Version>
+  <Version number="1.2.1">
+    <Change>SOME NEW CHAMPION CRAP APPROACHES! Data and screenshots for Lee Sin AND Brand have been added. Special thanks to my super-ninja Chief Content Consultant (C3) Smallfry310 for going above and beyond the call to get Brand's. What a beast.</Change>
+    <Change>The stats of many items have been adjusted to reflect changes in the 1.0.0.115 patch to the game.</Change>
+    <Change>Adjusted the upcoming roadmap. Check it out and (hopefully) get stoked?</Change>
+  </Version>
+  <Version number="1.2.0 (&quot;Alistar&quot;)">
+    <Change isBig="true">The mastery calculator is in the house. You can now create mastery templates and save them with your builds for hopefully handy reference. To view more details about a mastery "perk", tap and hold. Tap to add a point. You can't remove individual points (YET), but to clear all points, use the "X" icon on the toolbar. It'll get better, I promise.</Change>
+    <Change isBig="true">On the rune page editor, it's now possible to fill all empty slots of a certain rune type with a specific rune. To do so, just tap and hold on the rune you want to use to fill the empty slots. You can also remove a single rune from this menu.</Change>
+    <Change isBig="true">The Imp now haz blag! Check the Support page for a link to the blog, where you can stay up on what all's shaking with The Imp.</Change>
+    <Change isBig="true">A BUNCH OF NEW SCREENSHOTS APPROACH! At least some screenshots for every champion have been added. We'll continue to add and refine, but we're finally there, kind of.</Change>
+    <Change>Overhauled the entire stat engine of the application to allow for more accurate stat calculation and easier expandability. Things may not be exactly perfect yet, but hopefully they're closer to the ballpark.</Change>
+    <Change>It's now possible to clear all runes on a current rune page from the toolbar menu.</Change>
+    <Change>Added two missing screenshots for Warwick's passive abilities.</Change>
+    <Change>Fixed a bug that allowed you to put any rune in any slot, regardless of type.</Change>
+    <Change>On the build editor page, the rune page selector (along with the new mastery template selector) now open in full page mode to make items easier to choose.</Change>
+    <Change>The picker dialogs on the home screen have once again remembered how to hold your place when you choose a champion, item, rune and so on. When you hit the back button and return to the home screen, you should find the picker in about the same place you left it.</Change>
+    <Change>The Imp no longer FREAKS THE HECK OUT when it can't load your recent data - it just assumes you don't have any and gets on with its life. Added this to address a few problems had by international users, because apparently I'm not smart enough to ask the question: "OMG, what if they're not in America?" My bad. What a jerk, right?</Change>
+    <Change>The changelog/upcoming pages have been visually tweaked to improve readability. You know how your eyes aren't bleeding anymore as you're trying to read this? Yeah. That's what I'm talking about.</Change>
+  </Version>
+  <Version number="1.1.0 (&quot;Akali&quot;)">
+    <Change isBig="true">Summoner spells have been added for browsing, building, and general sweet loving.</Change>
+    <Change isBig="true">Tags have been added to each champion's landing page.</Change>
+    <Change>A NEW CHAMPION APPROACHES! Jarvan IV's data and screenshots have been added.</Change>
+    <Change>Added screenshots for Olaf and Nidalee.</Change>
+    <Change>Added a missing screenshot for Garen's Demacian Justice ability.</Change>
+    <Change>Added a missing screenshot for Annie's Pyromania ability.</Change>
+    <Change>Added a missing item: Morello's Evil Tome.</Change>
+    <Change>All browser dialogs now use alphabetical indexed-based search (like the People hub) rather than those stupid search textboxes.</Change>
+    <Change>Page transitions have been smoothed out a bit, and memory consumption has been reduced. Because your RAM deserves better.</Change>
+    <Change>Changed the default subject of the email generated from the Support page because I was tired of giving myself inadvertent heart attacks.</Change>
+    <Change>A metric ton of bugs have been identified. If it was broken before, it's either fixed, less broke, or on a list that has a big old frowny face at the top of it.</Change>
+  </Version>
+  <Version number="1.0.1">
+    <Change isBig="true">NEW CHAMPION DATA APPROACHES! Excuse my technical terminology, but screenshots have been added for a WHOLE CRAPLOAD of champions. Only Cassiopeia, Kog'Maw, Nidalee, and Olaf are still completely screenshot-bare.</Change>
+    <Change isBig="true">The base stats of each champion are now shown on his landing page along with ranks indicating how he stacks up against other champions at 18. Nifty, right?</Change>
+    <Change>Lots of performance enhancements (believe it or not) and improved memory management.</Change>
+    <Change>The build editor is now displayed in a pivot control.</Change>
+    <Change>Added Twisted Fate's missing ultimate. Who needs that Destiny crap?</Change>
+  </Version>
+  <Version number="1.0.0">
+    <Change isBig="true">There was no app. Now there is.</Change>
+  </Version>
+</ChangeLog>
