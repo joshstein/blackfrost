@@ -31,6 +31,7 @@ namespace Blackfrost.ViewModels
             Champion ahri = Tester.Champions.Where(c => c.Name == "Ahri").FirstOrDefault();
             Item rylais = Tester.Items.Where(i => i.Name == "Rylai's Crystal Scepter").FirstOrDefault();
             Rune lesserMarkOfMight = Tester.Runes.Where(r => r.Name == "Lesser Mark of Might").FirstOrDefault();
+            Spell flash = Tester.Spells.Where(s => s.Name == "Flash").FirstOrDefault();
 
             Debug.WriteLine("Sup");
         }

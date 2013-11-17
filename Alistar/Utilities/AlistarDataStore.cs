@@ -18,6 +18,7 @@ namespace Alistar.Utilities
         private List<Champion> _Champions;
         private List<Item> _Items;
         private List<Rune> _Runes;
+        private List<Spell> _Spells;
 
         public AlistarDataStore(string dataDirectory)
         {
@@ -25,10 +26,12 @@ namespace Alistar.Utilities
             _Champions = new List<Champion>();
             _Items = new List<Item>();
             _Runes = new List<Rune>();
+            _Spells = new List<Spell>();
 
             GetChampionList();
             GetItemList();
             GetRuneList();
+            GetSpellList();
         }
 
         // populate _Champions with data from Champions.xml
@@ -276,6 +279,26 @@ namespace Alistar.Utilities
             }
         }
 
+        // populate _Spells with data from Spells.xml
+        private void GetSpellList()
+        {
+            _Spells = new List<Spell>();
+
+            string spellsDocPath = Path.Combine(DataDirectory, "Spells.xml");
+            XDocument spellsDoc = XDocument.Load(spellsDocPath);
+
+            _Spells.AddRange(
+                from spell in spellsDoc.Root.Elements("Spell")
+                select new Spell()
+                {
+                    Name = XMLPal.GetString(spell.Attribute("name")),
+                    Level = XMLPal.GetInt(spell.Attribute("level")),
+                    Cooldown = XMLPal.GetInt(spell.Attribute("cooldown")),
+                    Description = XMLPal.GetString(spell.Attribute("description"))
+                }
+            );
+        }
+
         private Ability GetAbility(IEnumerable<XElement> abilityElements, AbilityHotkey hotkey)
         {
             return (
@@ -318,6 +341,11 @@ namespace Alistar.Utilities
         public Rune[] Runes
         {
             get { return _Runes.ToArray(); }
+        }
+
+        public Spell[] Spells
+        {
+            get { return _Spells.ToArray(); }
         }
 
         private Gender GetGender(string data)
