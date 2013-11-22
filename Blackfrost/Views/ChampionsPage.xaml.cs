@@ -18,9 +18,9 @@ namespace Blackfrost.Views
     /// <summary>
     /// Interaction logic for ChampionsControl.xaml
     /// </summary>
-    public partial class ChampionsControl : UserControl
+    public partial class ChampionsPage : UserControl
     {
-        public ChampionsControl()
+        public ChampionsPage()
         {
             InitializeComponent();
         }

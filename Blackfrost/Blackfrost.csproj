@@ -44,6 +44,9 @@
     <Reference Include="BazamWPF">
       <HintPath>lib\BazamWPF.dll</HintPath>
     </Reference>
+    <Reference Include="FirstFloor.ModernUI">
+      <HintPath>lib\FirstFloor.ModernUI.dll</HintPath>
+    </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>lib\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
@@ -66,7 +69,31 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Views\ChampionsControl.xaml">
+    <Compile Include="Content\Champions.xaml.cs">
+      <DependentUpon>Champions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CoopGamePage.xaml.cs">
+      <DependentUpon>CoopGamePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PvPGamePage.xaml.cs">
+      <DependentUpon>PvPGamePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TutorialGamePage.xaml.cs">
+      <DependentUpon>TutorialGamePage.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Content\Champions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ChampionsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CoopGamePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CustomGamePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -81,13 +108,24 @@
     <Compile Include="Infrastructure\UI\Commands\GoToPageCommand.cs" />
     <Compile Include="ViewModels\ChampionsWindowViewModel.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
-    <Compile Include="Views\ChampionsControl.xaml.cs">
-      <DependentUpon>ChampionsControl.xaml</DependentUpon>
+    <Compile Include="Views\ChampionsPage.xaml.cs">
+      <DependentUpon>ChampionsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CustomGamePage.xaml.cs">
+      <DependentUpon>CustomGamePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\PvPGamePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TutorialGamePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -117,26 +155,26 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\AlistarData\Champions.xml">
+    <Content Include="Assets\AlistarData\Champions.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="assets\AlistarData\ChangeLog.xml">
+    <Content Include="Assets\AlistarData\ChangeLog.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\AlistarData\Items.xml">
+    <Content Include="Assets\AlistarData\Items.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\AlistarData\Maps.xml">
+    <Content Include="Assets\AlistarData\Maps.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\AlistarData\MasteryPerks.xml">
+    <Content Include="Assets\AlistarData\MasteryPerks.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\AlistarData\Runes.xml">
+    <Content Include="Assets\AlistarData\Runes.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\AlistarData\Spells.xml">
+    <Content Include="Assets\AlistarData\Spells.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

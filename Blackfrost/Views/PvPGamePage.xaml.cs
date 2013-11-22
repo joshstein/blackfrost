@@ -12,17 +12,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Blackfrost.ViewModels;
-using FirstFloor.ModernUI.Windows.Controls;
 
-namespace Blackfrost
+namespace Blackfrost.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for PvPGamePage.xaml
     /// </summary>
-    public partial class MainWindow : ModernWindow
+    public partial class PvPGamePage : UserControl
     {
-        public MainWindow()
+        public PvPGamePage()
         {
             InitializeComponent();
         }

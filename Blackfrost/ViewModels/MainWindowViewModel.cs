@@ -29,7 +29,7 @@ namespace Blackfrost.ViewModels
         public MainWindowViewModel()
         {
             TheMessage = "Sup from the viewmodel?";
-            ChampionsControl = new ChampionsControl();
+            ChampionsControl = new ChampionsPage();
 
             string alistarDataDirectory = Path.GetFullPath("assets/AlistarData");
 

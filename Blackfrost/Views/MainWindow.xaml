@@ -1,21 +1,50 @@
-﻿<Window 
+﻿<mui:ModernWindow
     x:Class="Blackfrost.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mui="http://firstfloorsoftware.com/ModernUI"
     xmlns:vm="clr-namespace:Blackfrost.ViewModels"
     xmlns:cmd="clr-namespace:Blackfrost.Infrastructure.UI.Commands"
-    Title="MainWindow" Height="350" Width="525">
+    Title="MainWindow" Height="700" Width="1050">
     <Window.DataContext>
         <vm:MainWindowViewModel />
     </Window.DataContext>
     <Window.Resources>
         <cmd:GoToPageCommand x:Key="GoToChampionsPageCommand" Page="{Binding ChampionsControl}"/>
     </Window.Resources>
-    <Grid Background="{StaticResource BackgroundBrush}">
+
+    <mui:ModernWindow.MenuLinkGroups>
+        <mui:LinkGroup DisplayName="play" >
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="pvp" Source="/Views/PvPGamePage.xaml"/>
+                <mui:Link DisplayName="co-op vs. ai" Source="/Views/CoopGamePage.xaml"/>
+                <mui:Link DisplayName="custom" Source="/Views/CustomGamePage.xaml"/>
+                <mui:Link DisplayName="tutorials" Source="/Views/TutorialGamePage.xaml"/>
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="profile" >
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="profile"/>
+                <mui:Link DisplayName="leagues"/>
+                <mui:Link DisplayName="match history"/>
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+        <mui:LinkGroup DisplayName="library" >
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="champions" Source="/Views/ChampionsPage.xaml"/>
+                <mui:Link DisplayName="runes"/>
+                <mui:Link DisplayName="masteries"/>
+                <mui:Link DisplayName="spells"/>
+                <mui:Link DisplayName="item sets"/>
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+    </mui:ModernWindow.MenuLinkGroups>
+    
+    <!--<Grid Background="{StaticResource BackgroundBrush}">
         <Button
             Content="{Binding TheMessage}" 
             HorizontalAlignment="Center"
             VerticalAlignment="Center" 
             Command="{StaticResource GoToChampionsPageCommand}" CommandParameter="{Binding}"/>
-    </Grid>
-</Window>
+    </Grid>-->
+</mui:ModernWindow>
