@@ -34,6 +34,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Alistar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Alistar.dll</HintPath>
+    </Reference>
     <Reference Include="Bazam">
       <HintPath>lib\Bazam.dll</HintPath>
     </Reference>
@@ -135,12 +139,6 @@
     <Content Include="assets\AlistarData\Spells.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Alistar\Alistar.csproj">
-      <Project>{ba15e7cf-c655-4c88-a870-f936119d029a}</Project>
-      <Name>Alistar</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
