@@ -3,15 +3,19 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:vm="clr-namespace:Blackfrost.ViewModels"
+    xmlns:cmd="clr-namespace:Blackfrost.Infrastructure.UI.Commands"
     Title="MainWindow" Height="350" Width="525">
     <Window.DataContext>
         <vm:MainWindowViewModel />
     </Window.DataContext>
+    <Window.Resources>
+        <cmd:GoToPageCommand x:Key="GoToChampionsPageCommand" Page="{Binding ChampionsControl}"/>
+    </Window.Resources>
     <Grid Background="{StaticResource BackgroundBrush}">
         <Button
-            Click="Button_Click"
             Content="{Binding TheMessage}" 
             HorizontalAlignment="Center"
-            VerticalAlignment="Center" />
+            VerticalAlignment="Center" 
+            Command="{StaticResource GoToChampionsPageCommand}" CommandParameter="{Binding}"/>
     </Grid>
 </Window>

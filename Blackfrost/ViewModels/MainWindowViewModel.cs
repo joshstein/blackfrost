@@ -1,16 +1,20 @@
-﻿using BazamWPF.ViewModels;
-using Alistar.Models;
-using Alistar.Utilities;
-using System;
+﻿using System;
 using System.Reflection;
 using System.IO;
 using System.Linq;
 using System.Diagnostics;
+using Alistar.Models;
+using Alistar.Utilities;
+using BazamWPF.ViewModels;
+using System.Windows.Controls;
+using Blackfrost.Views;
 
 namespace Blackfrost.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
     {
+        public UserControl ChampionsControl { get; set; }
+
         private string _TheMessage;
         public string TheMessage
         {
@@ -25,8 +29,10 @@ namespace Blackfrost.ViewModels
         public MainWindowViewModel()
         {
             TheMessage = "Sup from the viewmodel?";
+            ChampionsControl = new ChampionsControl();
 
             string alistarDataDirectory = Path.GetFullPath("assets/AlistarData");
+
             AlistarDataStore Tester = new AlistarDataStore(alistarDataDirectory);
             Champion ahri = Tester.Champions.Where(c => c.Name == "Ahri").FirstOrDefault();
             Item rylais = Tester.Items.Where(i => i.Name == "Rylai's Crystal Scepter").FirstOrDefault();
@@ -36,6 +42,11 @@ namespace Blackfrost.ViewModels
             Mastery havoc = Tester.Masteries.Where(ma => ma.Name == "Havoc").FirstOrDefault();
 
             Debug.WriteLine("Sup");
+        }
+
+        public void GoToPage(UserControl page)
+        {
+
         }
     }
 }
