@@ -72,8 +72,14 @@
     <Compile Include="Content\Champions.xaml.cs">
       <DependentUpon>Champions.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Content\PvPGameContent.xaml.cs">
-      <DependentUpon>PvPGameContent.xaml</DependentUpon>
+    <Compile Include="Content\CSImageContent.xaml.cs">
+      <DependentUpon>CSImageContent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Content\SRImageContent.xaml.cs">
+      <DependentUpon>SRImageContent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Content\TTImageContent.xaml.cs">
+      <DependentUpon>TTImageContent.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\GamePages\Coop\CoopClassicPage.xaml.cs">
       <DependentUpon>CoopClassicPage.xaml</DependentUpon>
@@ -133,7 +139,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Content\PvPGameContent.xaml">
+    <Page Include="Content\CSImageContent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Content\SRImageContent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Content\TTImageContent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -289,6 +303,10 @@
     <Content Include="Assets\AlistarData\Spells.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Resource Include="Assets\Images\CrystalScarSquare.jpg" />
+    <Resource Include="Assets\Images\TwistedTreelineSquare.jpg" />
+    <Resource Include="Assets\Images\SummonersRiftTutorialSquare.png" />
+    <Resource Include="Assets\Images\SummonersRiftTutorial.png" />
     <Resource Include="Assets\Images\endOfTutorialBackground.png" />
   </ItemGroup>
   <ItemGroup />

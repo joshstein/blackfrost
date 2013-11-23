@@ -7,10 +7,10 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
-        <mui:ModernTab  Layout="List">
+        <mui:ModernTab SelectedSource="/Content/TTImageContent.xaml" Layout="List">
             <mui:ModernTab.Links>
-                <mui:Link DisplayName="normal blind pick"/>
-                <mui:Link DisplayName="ranked teams"/>
+                <mui:Link DisplayName="normal blind pick" Source="/Content/TTImageContent.xaml"/>
+                <mui:Link DisplayName="ranked teams" Source="/Content/TTImageContent.xaml"/>
             </mui:ModernTab.Links>
         </mui:ModernTab>
     </Grid>
