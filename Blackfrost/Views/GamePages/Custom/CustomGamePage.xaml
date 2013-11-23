@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
-        <mui:ModernTab SelectedSource="/Content/LoremIpsum.xaml#1" Layout="List">
+        <mui:ModernTab Layout="List">
             <mui:ModernTab.Links>
                 <mui:Link DisplayName="Normal" />
                 <mui:Link DisplayName="Tournament Code" />
