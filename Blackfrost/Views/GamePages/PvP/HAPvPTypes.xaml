@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="Blackfrost.Views.PvPClassicPage"
+﻿<UserControl x:Class="Blackfrost.Views.GamePages.HAPvPTypes"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -9,8 +9,7 @@
     <Grid Style="{StaticResource ContentRoot}">
         <mui:ModernTab SelectedSource="/Content/x.xaml" Layout="List">
             <mui:ModernTab.Links>
-                <mui:Link DisplayName="summoner's rift"/>
-                <mui:Link DisplayName="twisted treeline"/>
+                <mui:Link DisplayName="normal all random" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
     </Grid>

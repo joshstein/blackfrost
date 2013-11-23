@@ -72,40 +72,117 @@
     <Compile Include="Content\Champions.xaml.cs">
       <DependentUpon>Champions.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\CoopGamePage.xaml.cs">
+    <Compile Include="Views\GamePages\Coop\CoopClassicPage.xaml.cs">
+      <DependentUpon>CoopClassicPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GamePages\Coop\CoopDominionPage.xaml.cs">
+      <DependentUpon>CoopDominionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GamePages\Coop\CoopGamePage.xaml.cs">
       <DependentUpon>CoopGamePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\MasteriesPage.xaml.cs">
+    <Compile Include="Views\GamePages\Coop\CSCoopTypes.xaml.cs">
+      <DependentUpon>CSCoopTypes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GamePages\Coop\SRCoopTypes.xaml.cs">
+      <DependentUpon>SRCoopTypes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GamePages\Coop\TTCoopTypes.xaml.cs">
+      <DependentUpon>TTCoopTypes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GamePages\PvP\CSPvPTypes.xaml.cs">
+      <DependentUpon>CSPvPTypes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GamePages\PvP\HAPvPTypes.xaml.cs">
+      <DependentUpon>HAPvPTypes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GamePages\PvP\PvPARAMPage.xaml.cs">
+      <DependentUpon>PvPARAMPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GamePages\PvP\PvPDominionPage.xaml.cs">
+      <DependentUpon>PvPDominionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GamePages\PvP\SRPvPTypes.xaml.cs">
+      <DependentUpon>SRPvPTypes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GamePages\PvP\TTPvPTypes.xaml.cs">
+      <DependentUpon>TTPvPTypes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LibraryPages\MasteriesPage.xaml.cs">
       <DependentUpon>MasteriesPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\PvPClassicPage.xaml.cs">
+    <Compile Include="Views\GamePages\PvP\PvPClassicPage.xaml.cs">
       <DependentUpon>PvPClassicPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\PvPGamePage.xaml.cs">
+    <Compile Include="Views\GamePages\PvP\PvPGamePage.xaml.cs">
       <DependentUpon>PvPGamePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\RunesPage.xaml.cs">
+    <Compile Include="Views\LibraryPages\RunesPage.xaml.cs">
       <DependentUpon>RunesPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\SpellsPage.xaml.cs">
+    <Compile Include="Views\LibraryPages\SpellsPage.xaml.cs">
       <DependentUpon>SpellsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\TutorialGamePage.xaml.cs">
+    <Compile Include="Views\GamePages\Tutorials\TutorialGamePage.xaml.cs">
       <DependentUpon>TutorialGamePage.xaml</DependentUpon>
     </Compile>
     <Page Include="Content\Champions.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\ChampionsPage.xaml">
+    <Page Include="Views\GamePages\Coop\CoopClassicPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\CoopGamePage.xaml">
+    <Page Include="Views\GamePages\Coop\CoopDominionPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\CustomGamePage.xaml">
+    <Page Include="Views\GamePages\Coop\CSCoopTypes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GamePages\Coop\SRCoopTypes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GamePages\Coop\TTCoopTypes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GamePages\PvP\CSPvPTypes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GamePages\PvP\HAPvPTypes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GamePages\PvP\PvPARAMPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GamePages\PvP\PvPDominionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GamePages\PvP\SRPvPTypes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GamePages\PvP\TTPvPTypes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LibraryPages\ChampionsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GamePages\Coop\CoopGamePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GamePages\Custom\CustomGamePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -120,37 +197,37 @@
     <Compile Include="Infrastructure\UI\Commands\GoToPageCommand.cs" />
     <Compile Include="ViewModels\ChampionsWindowViewModel.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
-    <Compile Include="Views\ChampionsPage.xaml.cs">
+    <Compile Include="Views\LibraryPages\ChampionsPage.xaml.cs">
       <DependentUpon>ChampionsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\CustomGamePage.xaml.cs">
+    <Compile Include="Views\GamePages\Custom\CustomGamePage.xaml.cs">
       <DependentUpon>CustomGamePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Views\MasteriesPage.xaml">
+    <Page Include="Views\LibraryPages\MasteriesPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\PvPClassicPage.xaml">
+    <Page Include="Views\GamePages\PvP\PvPClassicPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\PvPGamePage.xaml">
+    <Page Include="Views\GamePages\PvP\PvPGamePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\RunesPage.xaml">
+    <Page Include="Views\LibraryPages\RunesPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\SpellsPage.xaml">
+    <Page Include="Views\LibraryPages\SpellsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\TutorialGamePage.xaml">
+    <Page Include="Views\GamePages\Tutorials\TutorialGamePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -206,9 +283,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\GamePages\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -17,10 +17,10 @@
     <mui:ModernWindow.MenuLinkGroups>
         <mui:LinkGroup DisplayName="play" >
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="pvp" Source="/Views/PvPGamePage.xaml"/>
-                <mui:Link DisplayName="co-op vs. ai" Source="/Views/CoopGamePage.xaml"/>
-                <mui:Link DisplayName="custom" Source="/Views/CustomGamePage.xaml"/>
-                <mui:Link DisplayName="tutorials" Source="/Views/TutorialGamePage.xaml"/>
+                <mui:Link DisplayName="pvp" Source="/Views/GamePages/PvP/PvPGamePage.xaml"/>
+                <mui:Link DisplayName="co-op vs. ai" Source="/Views/GamePages/Coop/CoopGamePage.xaml"/>
+                <mui:Link DisplayName="custom" Source="/Views/GamePages/Custom/CustomGamePage.xaml"/>
+                <mui:Link DisplayName="tutorials" Source="/Views/GamePages/Tutorial/TutorialGamePage.xaml"/>
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="profile" >
@@ -32,10 +32,10 @@
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="library" >
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="champions" Source="/Views/ChampionsPage.xaml"/>
-                <mui:Link DisplayName="runes" Source="/Views/RunesPage.xaml"/>
-                <mui:Link DisplayName="masteries" Source="/Views/MasteriesPage.xaml"/>
-                <mui:Link DisplayName="spells" Source="/Views/SpellsPage.xaml"/>
+                <mui:Link DisplayName="champions" Source="/Views/LibraryPages/ChampionsPage.xaml"/>
+                <mui:Link DisplayName="runes" Source="/Views/LibraryPages/RunesPage.xaml"/>
+                <mui:Link DisplayName="masteries" Source="/Views/LibraryPages/MasteriesPage.xaml"/>
+                <mui:Link DisplayName="spells" Source="/Views/LibraryPages/SpellsPage.xaml"/>
                 <mui:Link DisplayName="item sets"/>
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
