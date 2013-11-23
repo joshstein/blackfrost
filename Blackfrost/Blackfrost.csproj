@@ -75,8 +75,20 @@
     <Compile Include="Views\CoopGamePage.xaml.cs">
       <DependentUpon>CoopGamePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\MasteriesPage.xaml.cs">
+      <DependentUpon>MasteriesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PvPClassicPage.xaml.cs">
+      <DependentUpon>PvPClassicPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\PvPGamePage.xaml.cs">
       <DependentUpon>PvPGamePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RunesPage.xaml.cs">
+      <DependentUpon>RunesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SpellsPage.xaml.cs">
+      <DependentUpon>SpellsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\TutorialGamePage.xaml.cs">
       <DependentUpon>TutorialGamePage.xaml</DependentUpon>
@@ -118,7 +130,23 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\MasteriesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PvPClassicPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\PvPGamePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\RunesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SpellsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -177,6 +205,9 @@
     <Content Include="Assets\AlistarData\Spells.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\GamePages\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

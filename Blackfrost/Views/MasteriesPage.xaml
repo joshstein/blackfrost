@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="Blackfrost.Views.PvPGamePage"
+﻿<UserControl x:Class="Blackfrost.Views.MasteriesPage"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -9,9 +9,12 @@
     <Grid Style="{StaticResource ContentRoot}">
         <mui:ModernTab SelectedSource="/Content/x.xaml" Layout="List">
             <mui:ModernTab.Links>
-                <mui:Link DisplayName="classic" Source="/Views/PvPClassicPage"/>
-                <mui:Link DisplayName="dominion"/>
-                <mui:Link DisplayName="aram"/>
+                <mui:Link DisplayName="mastery page 1"/>
+                <mui:Link DisplayName="mastery page 2"/>
+                <mui:Link DisplayName="mastery page 3"/>
+                <mui:Link DisplayName="mastery page 4"/>
+                <mui:Link DisplayName="mastery page 5"/>
+                <mui:Link DisplayName="mastery page 6"/>
             </mui:ModernTab.Links>
         </mui:ModernTab>
     </Grid>

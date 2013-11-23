@@ -5,7 +5,8 @@
     xmlns:mui="http://firstfloorsoftware.com/ModernUI"
     xmlns:vm="clr-namespace:Blackfrost.ViewModels"
     xmlns:cmd="clr-namespace:Blackfrost.Infrastructure.UI.Commands"
-    Title="MainWindow" Height="700" Width="1050">
+    Title="MainWindow" Height="700" Width="1050"
+    ContentSource="ChampionsPage.xaml">
     <Window.DataContext>
         <vm:MainWindowViewModel />
     </Window.DataContext>
@@ -32,9 +33,9 @@
         <mui:LinkGroup DisplayName="library" >
             <mui:LinkGroup.Links>
                 <mui:Link DisplayName="champions" Source="/Views/ChampionsPage.xaml"/>
-                <mui:Link DisplayName="runes"/>
-                <mui:Link DisplayName="masteries"/>
-                <mui:Link DisplayName="spells"/>
+                <mui:Link DisplayName="runes" Source="/Views/RunesPage.xaml"/>
+                <mui:Link DisplayName="masteries" Source="/Views/MasteriesPage.xaml"/>
+                <mui:Link DisplayName="spells" Source="/Views/SpellsPage.xaml"/>
                 <mui:Link DisplayName="item sets"/>
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
