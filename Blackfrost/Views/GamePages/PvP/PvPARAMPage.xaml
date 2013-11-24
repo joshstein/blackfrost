@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
-        <mui:ModernTab Layout="List">
+        <mui:ModernTab SelectedSource="/Content/HAImageContent.xaml" Layout="List">
             <mui:ModernTab.Links>
                 <mui:Link DisplayName="howling abyss" Source="/Views/GamePages/PvP/HAPvPTypes.xaml"/>
             </mui:ModernTab.Links>

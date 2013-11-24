@@ -5,7 +5,7 @@
     xmlns:mui="http://firstfloorsoftware.com/ModernUI"
     xmlns:vm="clr-namespace:Blackfrost.ViewModels"
     xmlns:cmd="clr-namespace:Blackfrost.Infrastructure.UI.Commands"
-    Title="MainWindow" Height="700" Width="1050"
+    Title="MainWindow" Height="700" Width="1250"
     ContentSource="ChampionsPage.xaml">
     <Window.DataContext>
         <vm:MainWindowViewModel />
@@ -15,7 +15,7 @@
     </Window.Resources>
 
     <mui:ModernWindow.MenuLinkGroups>
-        <mui:LinkGroup DisplayName="play" >
+        <mui:LinkGroup DisplayName="play">
             <mui:LinkGroup.Links>
                 <mui:Link DisplayName="pvp" Source="/Views/GamePages/PvP/PvPGamePage.xaml"/>
                 <mui:Link DisplayName="co-op vs. ai" Source="/Views/GamePages/Coop/CoopGamePage.xaml"/>

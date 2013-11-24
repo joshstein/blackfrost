@@ -72,8 +72,14 @@
     <Compile Include="Content\Champions.xaml.cs">
       <DependentUpon>Champions.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Content\ClassicIntroContent.xaml.cs">
+      <DependentUpon>ClassicIntroContent.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Content\CSImageContent.xaml.cs">
       <DependentUpon>CSImageContent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Content\HAImageContent.xaml.cs">
+      <DependentUpon>HAImageContent.xaml</DependentUpon>
     </Compile>
     <Compile Include="Content\SRImageContent.xaml.cs">
       <DependentUpon>SRImageContent.xaml</DependentUpon>
@@ -139,7 +145,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Content\ClassicIntroContent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Content\CSImageContent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Content\HAImageContent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -303,6 +317,8 @@
     <Content Include="Assets\AlistarData\Spells.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Resource Include="Assets\Images\Summoners-Rift-Intro-Art.jpg" />
+    <Resource Include="Assets\Images\HowlingAbyssSquare.jpg" />
     <Resource Include="Assets\Images\CrystalScarSquare.jpg" />
     <Resource Include="Assets\Images\TwistedTreelineSquare.jpg" />
     <Resource Include="Assets\Images\SummonersRiftTutorialSquare.png" />
